@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Benvingut a la documentació
 
 You can use the [editor on GitHub](https://github.com/2ASIX-2021-22/ProjecteJSD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
