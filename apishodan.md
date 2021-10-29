@@ -1,5 +1,7 @@
 ## API Shodan
+
 ###  Consulta API Shodan en Python
+
 ###### 1. Realitza un petit programa que pregunti una ip a l'usuari i mostri la informació d'aquesta IP rebuda des de l'API de shodan.
 1. Importar llibreries
 
@@ -21,4 +23,11 @@
   
   ![ipUsuari](/ipUsuari.png)
   
-5. Quina informació mostrem?
+4. Bucle per mostrar la informació trobada:
+
+  ![bucleShodan](/bucleShodan.png)
+  
+
+6. Quina informació mostrem?
+
+  ![informacioIp](/informacioIp.png)
