@@ -5,7 +5,20 @@
 
 ![llibreriesShodan](/llibreriesShodan.png)
 
-
-
-2. Demanar al usuari una ip
-3. Quina informació mostrem?
+2. Com extraure la api key de shodan.
+  - Entrar a la pàgina https://www.shodan.io/ i crear un compte.
+ 
+ - Un cop creat el compte, entrar a account i copiar
+  ![acountshodan](/acountshodan.png)
+  
+  - Un cop copiat la api key, hem de crear una variable anomenada api, on posarem la key. 
+  Captura mostrant com s'ha de crear la variable.
+  
+  ![apikey](/apikey.png)
+  
+  
+3. Demanar al usuari una ip
+  
+  ![ipUsuari](/ipUsuari.png)
+  
+5. Quina informació mostrem?
