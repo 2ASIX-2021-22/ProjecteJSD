@@ -4,7 +4,7 @@
 1. Importar llibreries
 
 ![llibreriesShodan](/llibreriesShodan.png)
-Format: ![Alt Text](url)
+
 
 
 2. Demanar al usuari una ip
