@@ -25,9 +25,11 @@
   
 4. Bucle per mostrar la informació trobada:
 
+  
   ![bucleShodan](/bucleShodan.png)
   
 
 6. Quina informació mostrem?
-
+  
+  Domini i la ip, amb els ports que l'api ha trobat oberts.
   ![informacioIp](/informacioIp.png)
