@@ -9,27 +9,28 @@
 
 2. Com extraure la api key de shodan.
   - Entrar a la pàgina https://www.shodan.io/ i crear un compte.
- 
- - Un cop creat el compte, entrar a account i copiar
-  ![acountshodan](/acountshodan.png)
+  - Un cop creat el compte, entrar a account i copiar
+  
+    ![acountshodan](/acountshodan.png)
   
   - Un cop copiat la api key, hem de crear una variable anomenada api, on posarem la key. 
-  Captura mostrant com s'ha de crear la variable.
   
-  ![apikey](/apikey.png)
+    ![apikey](/apikey.png)
   
   
 3. Demanar al usuari una ip
   
-  ![ipUsuari](/ipUsuari.png)
+    ![ipUsuari](/ipUsuari.png)
   
 4. Bucle per mostrar la informació trobada:
 
   
-  ![bucleShodan](/bucleShodan.png)
+    ![bucleShodan](/bucleShodan.png)
   
 
 6. Quina informació mostrem?
   
   Domini i la ip, amb els ports que l'api ha trobat oberts.
-  ![informacioIp](/informacioIp.png)
+  
+  
+    ![informacioIp](/informacioIp.png)
