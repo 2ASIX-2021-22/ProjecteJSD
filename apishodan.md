@@ -30,7 +30,6 @@
 
 6. Quina informació mostrem?
   
-  Domini i la ip, amb els ports que l'api ha trobat oberts.
-  
-  
-    ![informacioIp](/informacioIp.png)
+  -Domini i la ip, amb els ports que l'api ha trobat oberts.
+ 
+   ![informacioIp](/informacioIp.png)
