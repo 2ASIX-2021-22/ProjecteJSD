@@ -34,11 +34,18 @@
  
    ![informacioIp](/Imatges/shodan/informacioIp.png)
    
-   ###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
-   ###### 3.Afegeix una funció que a partir de la informació anterior ens digui quin servei hi ha en cadascun dels ports oberts trobats.
-          Afegirem la següent funció:
-          
-   ###### 4. Afegeix una funció on l'usuari pugui escriure el nom d'un servei (per exemple proftp) i es mostri un resultats amb ips i ports on s'hi pugui trobar aquest servei segons els resultats de Shodan.
+###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
+  
+###### 3.Afegeix una funció que a partir de la informació anterior ens digui quin servei hi ha en cadascun dels ports oberts trobats.
+   Afegirem la següent funció:
+   
+   ![llibreriesShodanSocket](/Imatges/shodan/llibreriesShodanSocket.png)
+   
+   Per a que funcioni la funcio "socket." s'ha de importar la llibreria socket.
+   
+   ![ImportSocket](/Imatges/shodan/ImportSocket.png)
+   
+###### 4. Afegeix una funció on l'usuari pugui escriure el nom d'un servei (per exemple proftp) i es mostri un resultats amb ips i ports on s'hi pugui trobar aquest servei segons els resultats de Shodan.
    
    
    
