@@ -43,7 +43,7 @@
    
    Per a que funcioni la funcio "socket." s'ha de importar la llibreria socket.
    
-   ![ImportSocket](/Imatges/shodan/ImportSocket.png)
+   ![funcioSocket](/Imatges/shodan/funcioSocket.png)
    
 ###### 4. Afegeix una funció on l'usuari pugui escriure el nom d'un servei (per exemple proftp) i es mostri un resultats amb ips i ports on s'hi pugui trobar aquest servei segons els resultats de Shodan.
    
