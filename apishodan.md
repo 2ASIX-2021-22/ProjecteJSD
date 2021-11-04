@@ -3,6 +3,7 @@
 ###  Consulta API Shodan en Python
 
 ###### 1. Realitza un petit programa que pregunti una ip a l'usuari i mostri la informació d'aquesta IP rebuda des de l'API de shodan.
+###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
 1. Importar llibreries
 
 ![llibreriesShodan](/Imatges/shodan/llibreriesShodan.png)
@@ -34,7 +35,7 @@
  
    ![informacioIp](/Imatges/shodan/informacioIp.png)
    
-###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
+
   
 ###### 3.Afegeix una funció que a partir de la informació anterior ens digui quin servei hi ha en cadascun dels ports oberts trobats.
    Afegirem la següent funció:
