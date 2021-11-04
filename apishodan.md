@@ -39,7 +39,7 @@
 ###### 3.Afegeix una funció que a partir de la informació anterior ens digui quin servei hi ha en cadascun dels ports oberts trobats.
    Afegirem la següent funció:
    
-   ![llibreriesShodanSocket](/Imatges/shodan/llibreriesShodanSocket.png)
+   ![ImportSocket](/Imatges/shodan/ImportSocket.png)
    
    Per a que funcioni la funcio "socket." s'ha de importar la llibreria socket.
    
