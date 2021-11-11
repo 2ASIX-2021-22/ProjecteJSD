@@ -1,0 +1,32 @@
+## Canviar branca (master, main, gh-pages)
+git checkout gh-pages
+git checkout master
+git checkout main
+
+## Comprovar si estan els fitxers pujats
+git status
+
+## Afegir el fitxer que esta en roig
+git add "NOM_DEL_FITXER"
+
+## Afegir tots els fitxers
+git add .
+
+## COMMIT (Fer-lo sempre despres de fer un add, si no no es guardaran els canvis al github)
+git commit  -m "COMENTARI"
+
+##--------- BRANCA MAIN ---------##
+
+## PUJAR CANVIS BRANCA MAIN(Si canvio la carpeta localment s'ha de realitzar un push per aplicar els canvis al github)
+git push -u origin main
+
+## BAIXAR CANVIS (si algu canvia el repositori al github, puc actualitzar amb la següent comanda:)
+git pull origin main
+
+##--------- BRANCA GH-PAGES ---------##
+
+## PUJAR CANVIS BRANCA GH-PAGES(Si canvio la carpeta localment s'ha de realitzar un push per aplicar els canvis al github)
+git push -u origin gh-pages
+
+## BAIXAR CANVIS (si algú canvia el repositori al github, puc actualitzar amb la següent comanda:)
+git pull origin gh-pages
