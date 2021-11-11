@@ -15,6 +15,14 @@ git add .
 ## COMMIT (Fer-lo sempre despres de fer un add, si no no es guardaran els canvis al github)
 git commit  -m "COMENTARI"
 
+
+
+
+## --------------------------------------------------------------------------------------------------------- ##
+
+
+
+
 ##--------- BRANCA MAIN ---------##
 
 ## PUJAR CANVIS BRANCA MAIN(Si canvio la carpeta localment s'ha de realitzar un push per aplicar els canvis al github)
