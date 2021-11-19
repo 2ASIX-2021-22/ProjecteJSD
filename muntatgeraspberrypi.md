@@ -1,7 +1,10 @@
 # Hola
 ![muntatgeRasberry](/Imatges/muntatgerasp/01.jpg)
 
+![muntatgeRasberry](/Imatges/muntatgerasp/02-1.jpg)
+
 ![muntatgeRasberry](/Imatges/muntatgerasp/02.jpg)
+
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/03.jpg)
 
