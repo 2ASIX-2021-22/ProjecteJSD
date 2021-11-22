@@ -16,7 +16,7 @@
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/03.jpg)
 
-### Pas 3
+### Pas 3 i 4
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/08.jpg)
 
