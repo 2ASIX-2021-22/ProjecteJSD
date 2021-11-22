@@ -1,13 +1,24 @@
-# Hola
+# Muntatge de la Raspberry
+
+## Foto de la caixa
+
 ![muntatgeRasberry](/Imatges/muntatgerasp/01.jpg)
+
+## Instruccións del fabricant
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/02.jpg)
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/02-1.jpg)
 
+## Pas a Pas
+
+### Pas 1 i 2
+
 ![muntatgeRasberry](/Imatges/muntatgerasp/03.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/04.jpg)
+### Pas 3
+
+![muntatgeRasberry](/Imatges/muntatgerasp/08.jpg)
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/05.jpg)
 
