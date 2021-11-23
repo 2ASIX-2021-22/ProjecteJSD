@@ -1,12 +1,8 @@
-title: Your awesome title
+title: Projecte JSD
 author:
-  name: GitHub User
-  email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+  name: Jamal, Sergi i David
+  email: projectejsd@gmail.com
+description: > Benvingut al Projecte JSD
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -22,7 +18,7 @@ minima:
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    instagram: jekyll
+    instagram: @davidestrada1998
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
