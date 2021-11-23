@@ -2,7 +2,7 @@ title: Projecte JSD
 author:
   name: Jamal, Sergi i David
   email: projectejsd@gmail.com
-description: > Benvingut al Projecte JSD
+description: # Benvingut al Projecte JSD
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
