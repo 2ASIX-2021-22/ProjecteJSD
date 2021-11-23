@@ -24,19 +24,19 @@
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/11.jpg)
 
-### Pas 7
+### Pas 7 i 8
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/12.jpg)
 
-### Pas 8
+### Pas 9
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/14.jpg)
 
-### Pas 9
+### Pas 10
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/15.jpg)
 
-### Pas 10 resultat final
+### Pas 11 resultat final
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/17.jpg)
 
