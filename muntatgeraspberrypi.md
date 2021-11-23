@@ -32,11 +32,11 @@
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/14.jpg)
 
-### Pas 10
+### Pas 10 i 1
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/15.jpg)
 
-### Pas 11 resultat final
+### Pas 12 resultat final
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/17.jpg)
 
