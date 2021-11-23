@@ -36,7 +36,7 @@
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/15.jpg)
 
-### Pas 12 resultat final!
+### Pas 12 resultat final
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/17.jpg)
 
