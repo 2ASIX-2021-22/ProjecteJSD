@@ -20,35 +20,27 @@
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/08.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/05.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/06.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/07.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/08.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/09.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/10.jpg)
+### Pas 5
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/11.jpg)
 
+### Pas 6
+
 ![muntatgeRasberry](/Imatges/muntatgerasp/12.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/13.jpg)
+### Pas 7
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/14.jpg)
 
+### Pas 8
+
 ![muntatgeRasberry](/Imatges/muntatgerasp/15.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/16.jpg)
+### Pas 9 resultat final
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/17.jpg)
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/18.jpg)
-
-![muntatgeRasberry](/Imatges/muntatgerasp/19.jpg)
 
 ![muntatgeRasberry](/Imatges/muntatgerasp/20.jpg)
 
