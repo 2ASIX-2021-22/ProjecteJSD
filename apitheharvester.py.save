@@ -1,0 +1,78 @@
+ç#!/bin/python
+
+# Import per cridar l'eina theHarvester
+import asyncio
+import aiodns
+import subprocess
+
+def pedirNumeroEntero():
+    correcto=False
+    num=0
+    while(not correcto):
+        try:
+            num = int(input("Introdueix un numero de l'1 al 5: "))
+            correcto=True
+        except ValueError:
+            print('Error, Introdueix una opcio del menú:')
+
+    return num
+
+salir = False
+opcion = 0
+
+while not salir:
+    print ("------------------------")
+    print ("Opció 1. Execució")
+    print ("Opció 2. Ajuda")
+    print ("5. Sortir")
+    print ("------------------------")
+
+    print ("Escull una opció")
+
+    opcion = pedirNumeroEntero()
+
+
+
+    if opcion == 1:
+	domain=input("Disme el domini que vols buscar: ")
+	subprocess.call("cd theHarvester && python3 ./theHarvester.py -d {} -l 10 -b google".format(domain), shell=True)
+    elif opcion == 2:
+	print("usage: theHarvester.py [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER] [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]")
+	print("theHarvester is used to gather open source intelligence (OSINT) on a company or domain.")
+	print("optional arguments:")
+	print(" -h, --help            show this help message and exit")
+  	print("-d DOMAIN, --domain DOMAIN")
+        print("                Company name or domain to search.")
+  	print("-l LIMIT, --limit LIMIT")
+        print("                Limit the number of search results, default=500.")
+  	print("-S START, --start START")
+        print("                Start with result number X, default=0.")
+  	print("-g, --google-dork     Use Google Dorks for Google search.")
+  	print("-p, --proxies         Use proxies for requests, enter proxies in proxies.yaml.")
+  	print("-s, --shodan          Use Shodan to query discovered hosts.")
+  	print("--screenshot SCREENSHOT")
+        print("                Take screenshots of resolved domains specify output directory: --screenshot output_directory")
+  	print("-v, --virtual-host    Verify host name via DNS resolution and search for virtual hosts.")
+  	print("-e DNS_SERVER, --dns-server DNS_SERVER")
+        print("                DNS server to use for lookup.)"
+  	print("-t DNS_TLD, --dns-tld DNS_TLD")
+        print("                Perform a DNS TLD expansion discovery, default False.")
+  	print("-r, --take-over       Check for takeovers.")
+  	print("-n, --dns-lookup      Enable DNS server lookup, default False.")
+  	print("-c, --dns-brute       Perform a DNS brute force on the domain.")
+  	print("-f FILENAME, --filename FILENAME")
+        print("                Save the results to an XML and JSON file.")
+  	print("-b SOURCE, --source SOURCE")
+        print("anubis, baidu, bing, binaryedge, bingapi, bufferoverun, censys, certspotter, crtsh, dnsdumpster, duckduckgo, fullhunt, github-code, google, hackertarget, hunter, intelx, linkedin,")
+        print("linkedin_links, omnisint, otx, pentesttools, projectdiscovery, qwant, rapiddns, rocketreach, securityTrails, spyse, sublist3r, threatcrowd, threatminer, trello, twitter, urlscan,")
+        print("virustotal, yahoo, zoomeye\")0")
+
+
+    elif opcion == 3:
+        salir = True
+    else:
+        print ("Introduce un numero entre 1 y 3")
+
+print ("Fi")
+
+
