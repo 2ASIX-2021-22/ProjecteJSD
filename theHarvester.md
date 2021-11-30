@@ -3,6 +3,10 @@
 
 # The Harvester és una eina per recol·lectar informació pública a la web. Aprèn com funciona per anticipar-te a atacs d'enginyeria social.
 
+### Què és The Harvester?
+
+És una eina per aconseguir informació sobre emails, subdominis, hosts, noms d'empleats, ports oberts, banners, etc. des de fonts públiques com són els motors de cerca, servidors PGP, la xarxa social LinkedIn i la base de dades de SHODAN ( Cercador semblant a Google però amb la diferència que no indexa contingut, sinó que registra qualsevol dispositiu connectat a Internet).
+
 ### Instruccions d'instal·lació:
 
 Per començar, caldria crear un CSE de Google i afegir la nostra API Key de google i l'identificador del CSE generat.
