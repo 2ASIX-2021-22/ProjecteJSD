@@ -11,7 +11,9 @@
 
 Per començar, caldria crear un CSE de Google i afegir la nostra API Key de google i l'identificador del CSE generat.
 
-En segon lloc, hem d'especificar la nostra API Key de Shodan al fitxer shodansearch.py del projecte.
+En segon lloc, hem d'especificar la nostra API Key de Shodan al fitxer shodansearch.py del projecte. (https://github.com/laramies/theHarvester/issues/747)
+
+També, crearem el fitxer api-keys.yaml (https://github.com/ben000000/theHarvester/blob/master/api-keys.yaml)
 
 Hem d'instal·lar la llibreria requests de Python ( pip install requests )
 
