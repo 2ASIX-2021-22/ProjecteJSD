@@ -5,7 +5,7 @@ import asyncio
 import aiodns
 import subprocess
 
-def pedirNumeroEntero():
+def demanaNumeroEnter():
     correcto=False
     num=0
     while(not correcto):
@@ -29,7 +29,7 @@ while not salir:
 
     print ("Escull una opció")
 
-    opcion = pedirNumeroEntero()
+    opcion = demanaNumeroEnter()
 
     if opcion == 1:
       domain=input("Disme el domini que vols buscar: ")
