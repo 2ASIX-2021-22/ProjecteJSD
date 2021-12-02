@@ -8,7 +8,7 @@ from collections import OrderedDict
 class SearchShodan:
 
     def __init__(self):
-        self.key = Core.shodan_key()
+        self.key = Core.shodan_key('iyw7Is1pCQ2kCoqAn6KNEQvpT2VlqBpo')
         if self.key is None:
             raise MissingKey('Shodan')
         self.api = Shodan(self.key)
