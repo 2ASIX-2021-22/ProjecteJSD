@@ -2,7 +2,6 @@
 
 # Import per cridar l'eina theHarvester
 import asyncio
-import aiodns
 import subprocess
 
 def demanaNumeroEnter():
