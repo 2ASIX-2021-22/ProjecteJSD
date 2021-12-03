@@ -6,7 +6,10 @@
 # ATENTION!!! Add your cookies as follows:
 # cookies="c_user=xxxxxxxxxxxxxxx; xs=xxxxxxxxxxxxxxxxxx;"
 # Instructions: https://c43s4rs.blogspot.com/2020/03/udork-tu-herramienta-para-google-dorks.html
-cookies="c_user=100001529050721; xs=42%3Axu9IPGG-h9E7lQ%3A2%3A1634923181%3A-1%3A10075%3A%3AAcXPHlhJ0zmEHtibsrBJzho2K3h4cI53px--Meeiyg;" 
+#Sergi
+#cookies="c_user=100001529050721; xs=42%3Axu9IPGG-h9E7lQ%3A2%3A1634923181%3A-1%3A10075%3A%3AAcXPHlhJ0zmEHtibsrBJzho2K3h4cI53px--Meeiyg;"
+#Jamal
+cookies="c_user=100003801582489; xs=130%3AFk4C1Yp4KPqdag%3A2%3A1638558973%3A-1%3A7011;"
 ##################################################################################################
 
 # Variables
@@ -54,12 +57,12 @@ d_devices="$BaseDir/dorks/devices.txt"
 # Functions
 # Startup logo
 function banner_uDork(){
-	echo """                                                                
-       _____             _    
-      |  __ \           | |   
+	echo """
+       _____             _
+      |  __ \           | |
  _   _| |  | | ___  _ __| | __
 | | | | |  | |/ _ \| '__| |/ /
-| |_| | |__| | (_) | |  |   < 
+| |_| | |__| | (_) | |  |   <
  \__,_|_____/ \___/|_|  |_|\_\ ${cBold}v.3.0
 	${cBold}by ${cRojo}M3n0sD0n4ld${cNormal} - (${cBold}${cAmarillo}@David_Uton${cNormal})
 """
