@@ -4,12 +4,36 @@
 import asyncio
 import subprocess
 
+def propic():
+    usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
+    subprocess.call("cd Osintgram/output/ && fim -a ./*", shell=True)
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
+
+def photos():
+    usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c photos".format(usuari), shell=True)
+    subprocess.call("cd Osintgram/output/ && fim -a ./*", shell=True)
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
+
+def addrs():
+    usuari = input("Disme l'usuari d'Instagram del qual vols buscar les direccions a les imatges: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c addrs".format(usuari), shell=True)
+
+def fwersemail():
+    usuari = input("Disme l'usuari d'Instagram del qual vols buscar el correu electrònic: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c fwersemail".format(usuari), shell=True)
+
+def info():
+    usuari = input("Disme l'usuari d'Instagram del qual vols obtenir informació: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c info".format(usuari), shell=True)
+
 def demanaNumeroEnter():
     correcto=False
     num=0
     while(not correcto):
         try:
-            num = int(input("Introdueix un numero de l'1 al 3: "))
+            num = int(input("Introdueix un numero de l'1 al 7: "))
             correcto=True
         except ValueError:
             print('Error, Introdueix una opcio del menú:')
@@ -22,8 +46,12 @@ opcion = 0
 while not salir:
     print ("------------------------")
     print ("Opció 1. Opcions OSINTGRAM")
-    print ("Opció 2. Veure foto perfil instagram:")
-    print ("3. Sortir")
+    print ("Opció 2. Veure foto perfil Instagram:")
+    print ("Opció 3. Veure fotos públicades a Instagram:")
+    print ("Opció 4. Obtenir totes les fotos registrades dirigides a les fotos de destinació")
+    print ("Opció 5. Obteniu el correu electrònic dels seguidors de l'objectiu")
+    print ("Opció 6. Obtenir l'informació de l'objectiu")
+    print ("7. Sortir")
     print ("------------------------")
 
     print ("Escull una opció")
@@ -56,13 +84,19 @@ while not salir:
         print(" - wtagged         Obteniu una llista d'usuaris que han etiquetat l'objectiu")
 
     elif opcion == 2:
-        usuari = input("Disme l'usuari d'instagram que vols buscar: ")
-        subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
-        subprocess.call("cd Osintgram/output && ls")
+        propic()
     elif opcion == 3:
+        photos()
+    elif opcion == 4:
+        addrs()
+    elif opcion == 5:
+        fwersemail()
+    elif opcion == 6:
+        info()
+    elif opcion == 7:
         salir = True
     else:
-        print ("Introduce un numero entre 1 y 3")
+        print ("Introduce un numero entre 1 y 7")
 
 print ("Fi")
 
