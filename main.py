@@ -1,22 +1,22 @@
 #!/bin/python
 
-def pedirNumeroEntero():
+def DemanaNumeroEnter():
  
-    correcto=False
+    correcte=False
     num=0
-    while(not correcto):
+    while(not correcte):
         try:
             num = int(input("Introdueix un numero de l'1 al 5: "))
-            correcto=True
+            correcte=True
         except ValueError:
             print('Error, Introdueix una opcio del menú:')
      
     return num
  
-salir = False
+sortir = False
 opcion = 0
  
-while not salir:
+while not sortir:
     print ("------------------------")
     print ("Opció 1. API de Shodan")
     print ("Opció 2. theHarvester")
@@ -27,7 +27,7 @@ while not salir:
      
     print ("Escull una opció")
  
-    opcion = pedirNumeroEntero()
+    opcion = DemanaNumeroEnter()
  
     if opcion == 1:
         print ("Opció 1")
