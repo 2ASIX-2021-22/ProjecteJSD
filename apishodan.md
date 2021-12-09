@@ -50,7 +50,7 @@
    
 ###### 4. Afegeix una funció on l'usuari pugui escriure el nom d'un servei (per exemple proftp) i es mostri un resultats amb ips i ports on s'hi pugui trobar aquest servei segons els resultats de Shodan.
 
-   ![funcioSocket](/Imatges/shodan/ex4codi.png)
+   ![codi](/Imatges/shodan/ex4codi.png)
    
    Captura  
    
