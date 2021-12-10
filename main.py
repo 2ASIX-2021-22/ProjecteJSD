@@ -22,7 +22,7 @@ while not sortir:
     print ("Opció 2. theHarvester")
     print ("Opció 3. Bot telegram")
     print ("Opció 4. uDork")
-    print ("5. Sortir")
+    print ("Opció 5. Sortir")
     print ("------------------------")
      
     print ("Escull una opció")
@@ -41,8 +41,8 @@ while not sortir:
         print("Opció 4")
         exec(open("uDork.py").read())
     elif opcion == 5:
-        salir = True
+        sortir = True
     else:
-        print ("Introduce un numero entre 1 y 3")
+        print ("Introduce un numero entre 1 y 5")
  
 print ("Fi")
