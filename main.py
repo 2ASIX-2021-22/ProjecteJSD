@@ -31,7 +31,7 @@ while not sortir:
  
     if opcion == 1:
         print ("Opció 1")
-        exec(open("apishodansearch.py").read())
+        exec(open("APISHODAN.py").read())
     elif opcion == 2:
         print ("Opció 2")
         exec(open("apitheharvester.py").read())
