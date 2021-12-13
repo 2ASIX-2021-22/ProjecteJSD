@@ -6,7 +6,7 @@ objectiu = socket.gethostbyname(input("Introdueïx la direcció IP: "))
 print("Escanejant objectiu: " + objectiu)
 
 try:
-    for port in range (1, 150):
+    for port in range (1, 65000):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
         resultat = s.connect_ex((objectiu, port))

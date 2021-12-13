@@ -52,7 +52,7 @@ while not salir:
     print ("Opció 2. Buscar fitxers en extensió")
     print ("Opció 3. Buscar la paraula ")
     print ("Opció 4. Buscar ")
-    print ("Opció 5. Sortir")
+    print ("Opció 5. Tornar al menú")
     print ("------------------------")
     print ("Escull una opció")
     opcion = pedirNumeroEntero()
@@ -66,8 +66,8 @@ while not salir:
     elif opcion == 4:
         menu_cadena()
     elif opcion == 5:
-        salir = True
+        exec(open("main.py").read())
     else:
-        print ("Introduce un numero entre 1 y 3")
+        print ("Introduce un numero entre 1 y 5")
  
 print ("Fi")

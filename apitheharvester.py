@@ -27,7 +27,7 @@ while not salir:
     print ("------------------------")
     print ("Opció 1. Execució")
     print ("Opció 2. Mostrar resultats:")
-    print ("3. Sortir")
+    print ("3. Tornar al menú")
     print ("------------------------")
 
     print ("Escull una opció")
@@ -45,7 +45,7 @@ while not salir:
         chrome_path = '/usr/bin/google-chrome %s'
         webbrowser.get(chrome_path).open(url)     
     elif opcion == 3:
-        salir = True
+        exec(open("main.py").read())
     else:
         print ("Introduce un numero entre 1 y 3")
 
