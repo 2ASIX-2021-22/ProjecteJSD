@@ -4,6 +4,10 @@
 import asyncio
 import subprocess
 
+#Import per obrir un navegador
+import webbrowser
+
+
 def demanaNumeroEnter():
     correcto=False
     num=0
@@ -36,8 +40,10 @@ while not salir:
       fontDades = input("Disme la font a la qual farem la busqueda: (google, googleCSE, bing, bingapi, pgp, linkedin, google-profile, people123, jigsaw, twitter, googleplus, all)")
       subprocess.call("cd theHarvester && python3 ./theHarvester.py -d {} -l {} -b {} -f resulttheharvester.html".format(domain, limit, fontDades), shell=True)
     elif opcion == 2:
-        print("Mostrar resultats: ")
-
+        print("Mostrar resultats al navegador: ")
+        url=("file:///home/alumne/Code/ProjecteJSD/theHarvester/resulttheharvester.xml")
+        chrome_path = '/usr/bin/google-chrome %s'
+        webbrowser.get(chrome_path).open(url)     
     elif opcion == 3:
         salir = True
     else:
