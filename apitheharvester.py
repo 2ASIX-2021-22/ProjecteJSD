@@ -41,7 +41,7 @@ while not salir:
       subprocess.call("cd theHarvester && python3 ./theHarvester.py -d {} -l {} -b {} -f resulttheharvester.html".format(domain, limit, fontDades), shell=True)
     elif opcion == 2:
         print("Mostrar resultats al navegador: ")
-        url=("file:///home/alumne/Code/ProjecteJSD/theHarvester/resulttheharvester.xml")
+        url=("./theHarvester/resulttheharvester.xml")
         chrome_path = '/usr/bin/google-chrome %s'
         webbrowser.get(chrome_path).open(url)     
     elif opcion == 3:
