@@ -7,13 +7,13 @@ import subprocess
 def propic():
     usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
-    subprocess.call("cd Osintgram/output/ && fim -a ./*", shell=True)
+    subprocess.call("cd Osintgram/output/ && viu ./*", shell=True)
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def photos():
     usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c photos".format(usuari), shell=True)
-    subprocess.call("cd Osintgram/output/ && fim -a ./*", shell=True)
+    subprocess.call("cd Osintgram/output/ && viu ./*", shell=True)
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def addrs():
