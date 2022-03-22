@@ -3,7 +3,7 @@
 import requests
 import sys
 from shodan import Shodan
-
+import telegram_send
 # Demana a l'usuari una ip que la guardara en la variable dades.
 dades = input("Disme la ip que vols buscar: ")
 # Setup de API de (Sergi)
@@ -17,9 +17,10 @@ try:
     # Bucle que recorre la informació de l'API:
     for service in result['data']:
         # Mostra el domini, la ip i els ports oberts trobats l'API;
+        enviar=service['domains'], service['ip_str'], service['port']
         print(service['domains'], service['ip_str'], service['port'])
         domain=service['domains']
-
+        telegram_send.send(messages=[enviar])
     try:
         # Demana un nom de servei a l'usuari:
         dades2 = input("Introdueix un servei: ")
