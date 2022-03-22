@@ -15,5 +15,4 @@ RUN apt install python3-nmap -y
 RUN pip3 install nmap
 RUN pip3 install python3-nmap
 RUN pip3 install telegram-send
-RUN 
 CMD [ "python3", "./main.py" ]
