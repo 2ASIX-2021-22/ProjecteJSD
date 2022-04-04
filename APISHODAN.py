@@ -21,6 +21,8 @@ api = Shodan('iyw7Is1pCQ2kCoqAn6KNEQvpT2VlqBpo')
 result = api.host(dades)
 results = api.search(dades)
 
+enviarMensaje('Aquest és el resultat de la cerca amb Shodan:\n')
+
 try:
     # Bucle que recorre la informació de l'API:
     for service in result['data']:
