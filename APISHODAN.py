@@ -44,6 +44,7 @@ try:
             print('IP: {}' . format(service['ip_str']))
             print(result2['data'])
             print('')
+            enviarMensaje(result2['data'])
     except Shodan.APIError:
         print('Error: {}' . format(Shodan.APIError))
 except Exception as e:
