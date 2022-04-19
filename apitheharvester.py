@@ -6,7 +6,7 @@ import subprocess
 
 #Import per obrir un navegador
 import webbrowser
-
+from bot_telegram import enviarMensaje,enviarDocumento
 
 def demanaNumeroEnter():
     correcto=False
@@ -42,10 +42,11 @@ while not salir:
     elif opcion == 2:
         print("Mostrar resultats al navegador: ")
         url=("./theHarvester/resulttheharvester.xml")
+        enviarDocumento("/home/alumne/Code/ProjecteJSD/theHarvester/resulttheharvester.xml")
         chrome_path = '/usr/bin/google-chrome %s'
         webbrowser.get(chrome_path).open(url)     
     elif opcion == 3:
-        exec(open("main.py").read())
+        salir = True
     else:
         print ("Introduce un numero entre 1 y 3")
 

@@ -7,5 +7,8 @@ idGrupo = '-778140191'
 def enviarMensaje(mensaje):
     requests.post('https://api.telegram.org/bot' + idBot + '/sendMessage',
               data={'chat_id': idGrupo, 'text': mensaje, 'parse_mode': 'HTML'})
-
-enviarMensaje("Prova resultat")
+def enviarDocumento(ruta):
+    requests.post('https://api.telegram.org/bot' + idBot + '/sendDocument',
+              files={'document': (ruta, open(ruta, 'rb'))},
+              data={'chat_id': idGrupo, 'caption': 'imagen caption'})
+#enviarMensaje("Prova resultat")

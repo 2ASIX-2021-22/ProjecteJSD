@@ -7,6 +7,7 @@ COPY . /app
 RUN apt update -y
 RUN apt install sudo -y
 RUN apt install cargo -y
+RUN apt install p7zip-full
 RUN cargo install viu
 RUN pip3 install -r requirements.txt
 RUN apt install pip -y

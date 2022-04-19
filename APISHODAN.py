@@ -3,14 +3,7 @@
 import requests
 import sys
 from shodan import Shodan
-
-idBot = '5284709102:AAG5aUAtY15hInQgPj4CybRMz9WyTkg6j6I'
-idGrupo = '-778140191'
-
-def enviarMensaje(mensaje):
-    requests.post('https://api.telegram.org/bot' + idBot + '/sendMessage',
-              data={'chat_id': idGrupo, 'text': mensaje, 'parse_mode': 'HTML'})
-
+from bot_telegram import enviarMensaje,enviarDocumento
 
 # Demana a l'usuari una ip que la guardara en la variable dades.
 dades = input("Disme la ip que vols buscar: ")

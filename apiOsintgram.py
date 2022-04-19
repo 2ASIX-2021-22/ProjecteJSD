@@ -3,38 +3,51 @@
 # Import per cridar l'eina theHarvester
 import asyncio
 import subprocess
-
+from bot_telegram import enviarMensaje, enviarDocumento
 def propic():
+    enviarMensaje("Imatge de perfil")
     usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
-    subprocess.call("cd Osintgram/output/ && viu ./*", shell=True)
+    #subprocess.call("viu /app/Osintgram/output/{}_propic.jpg".format(usuari), shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_propic.jpg".format(usuari))
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def photos():
+    enviarMensaje("Imatge pujades")
     usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c photos".format(usuari), shell=True)
-    subprocess.call("cd Osintgram/output/ && viu ./*", shell=True)
+    subprocess.call("cd /home/alumne/Code/ProjecteJSD/Osintgram/output && zip -r imatges.zip *",shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/imatges.zip")
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def addrs():
+    enviarMensaje("Adreces")
     usuari = input("Disme l'usuari d'Instagram del qual vols buscar les direccions a les imatges: ")
-    subprocess.call("cd Osintgram && python3 ./main.py {} -c addrs".format(usuari), shell=True)
-
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c addrs -f".format(usuari), shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_addrs.txt".format(usuari))
 def fwersemail():
+    enviarMensaje("Emails")
     usuari = input("Disme l'usuari d'Instagram del qual vols buscar el correu electrònic: ")
-    subprocess.call("cd Osintgram && python3 ./main.py {} -c fwersemail".format(usuari), shell=True)
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c fwersemail -f".format(usuari), shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_fwersemail.txt".format(usuari))
 
 def info():
+    enviarMensaje("Info")
     usuari = input("Disme l'usuari d'Instagram del qual vols obtenir informació: ")
-    subprocess.call("cd Osintgram && python3 ./main.py {} -c info".format(usuari), shell=True)
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c info -f".format(usuari), shell=True)
+    # enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_info.txt".format(usuari))
 
 def fwingsnumber():
+    enviarMensaje("Numeros de mobil")
     usuari = input("Disme l'usuari d'Instagram del qual vols obtenir el número de telèfon dels usuaris seguits de l'objectiu: ")
-    subprocess.call("cd Osintgram && python3 ./main.py {} -c fwingsnumber".format(usuari), shell=True)
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c fwingsnumber -f".format(usuari), shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_fwingsnumber.txt".format(usuari))
 
 def followings():
-    usuari = input("Disme l'usuari d'Instagram del qual vols obtenir el número de telèfon dels usuaris seguits de l'objectiu: ")
-    subprocess.call("cd Osintgram && python3 ./main.py {} -c followings".format(usuari), shell=True)
+    enviarMensaje("Nom d'usuari")
+    usuari = input("Disme l'usuari d'Instagram del qual vols obtenir el nom dels usuaris seguits de l'objectiu: ")
+    subprocess.call("cd Osintgram && python3 ./main.py {} -c followings -f".format(usuari), shell=True)
+    enviarDocumento("/home/alumne/Code/ProjecteJSD/Osintgram/output/{}_followings.txt".format(usuari))
 
 
 def demanaNumeroEnter():
@@ -61,8 +74,8 @@ while not sortir:
     print ("Opció 5. Obteniu el correu electrònic dels seguidors de l'objectiu")
     print ("Opció 6. Obtenir l'informació de l'objectiu")
     print ("Opció 7. Obtenir el número de telèfon dels usuaris seguits de l'objectiu:")    
-    print ("Opció 7. Obtenir el nom d'usuari dels usuaris seguits de l'objectiu:")    
-    print ("8. Sortir")
+    print ("Opció 8. Obtenir el nom d'usuari dels usuaris seguits de l'objectiu:")    
+    print ("9. Sortir")
     print ("------------------------")
 
     print ("Escull una opció")
@@ -99,6 +112,8 @@ while not sortir:
     elif opcion == 7:
         fwingsnumber()
     elif opcion == 8:
+        followings()
+    elif opcion == 9:
         sortir = True
     else:
         print ("Introdueix un numero entre 1 y 7")

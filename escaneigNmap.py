@@ -1,7 +1,7 @@
  #!/bin/bash/python3
 import nmap
 import subprocess
-
+from bot_telegram import enviarMensaje, enviarDocumento
 
 
 def host_actiu():
@@ -9,6 +9,7 @@ def host_actiu():
     ip_xarxa = input("Introdueix IP de la xarxa: ")
     nm.scan(hosts = ip_xarxa, arguments='-n -sP -PE')
     up_hosts = nm.all_hosts()		# Obtenir una llista de hosts actius
+    enviarMensaje('IPs obertes: {}'.format(up_hosts))
     print(up_hosts)   
 def nmap_ports():
     ip=input("[+] IP Objectiu ==> ")
@@ -20,20 +21,20 @@ def nmap_ports():
     
     print("\nHost : %s" % ip)
     print("Estat : %s" % nm[ip].state())
-    
-    for proto in nm[ip].all_protocols():
-     print("Protocol : %s" % proto)
-     print()
-     lport = nm[ip][proto].keys()
-     sorted(lport)
 
-     for port in lport:
-      print ("Port: %s\t Estat: %s" % (port, nm[ip][proto][port]["state"]))
-      if count==0:
-       ports_oberts=ports_oberts+str(port)
-       count=1
-      else:
-       ports_oberts=ports_oberts+","+str(port)
+    for proto in nm[ip].all_protocols():
+        print("Protocol : %s" % proto)
+        print()
+        lport = nm[ip][proto].keys()
+        sorted(lport)
+        enviarMensaje("\nHost : %(ip)s Estat: %(estat)s Protocol: %(protocol)s" %{"ip": ip, "estat": nm[ip].state(), "protocol": proto })
+        for port in lport:
+            print ("Port: %s\t Estat: %s" % (port, nm[ip][proto][port]["state"]))
+            if count==0:
+                ports_oberts=ports_oberts+str(port)
+                count=1
+            else:
+                ports_oberts=ports_oberts+","+str(port)
 def nmap_versio_servei():
     ip=input("[+] IP Objectiu ==> ")
     nmScan = nmap.PortScanner()
