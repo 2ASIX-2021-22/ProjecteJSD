@@ -1,5 +1,9 @@
 ## Benvingut a la documentació de l'usuari
 
+### Descargar el repositori del github per instal·lar la app.
+
+Un cop descarregat el projecte del github.
+
 ### Automatització de instal·lació de recursos
 
 Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
