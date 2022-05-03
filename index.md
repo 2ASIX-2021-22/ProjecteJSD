@@ -10,8 +10,7 @@ Que fa script?
 * Instal·la els tres paquets de docker
 * Construeix l'app
 * Mostra les imatges que tenim
-
-Arranca l'app
+* Arranca l'app
 
 [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
