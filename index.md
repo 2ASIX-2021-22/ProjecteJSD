@@ -6,15 +6,15 @@ Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
 
 Que fa script?
 
-Automatitzem l'actualització del sistema
+Automatiitza l'actualització del sistema
 
-Instal·lem els tres paquets de docker
+Instal·la els tres paquets de docker
 
-Construïm l'app
+Construeix l'app
 
-Mostrem les imatges
+Mostra les imatges que tenim
 
-Arranquem l'app
+Arranca l'app
 
 [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
