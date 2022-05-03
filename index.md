@@ -6,10 +6,10 @@ Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
 
 Que fa script?
 
-*Automatiitza l'actualització del sistema
-*Instal·la els tres paquets de docker
-*Construeix l'app
-*Mostra les imatges que tenim
+* Automatiitza l'actualització del sistema
+* Instal·la els tres paquets de docker
+* Construeix l'app
+* Mostra les imatges que tenim
 
 Arranca l'app
 
