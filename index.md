@@ -30,14 +30,3 @@ Que fa script?
 [API Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
 
 [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
-
-[uDork](https://2asix-2021-22.github.io/ProjecteJSD/uDork)
-
-[Osintgram](https://2asix-2021-22.github.io/ProjecteJSD/Osintgram)
-
-[Socket](https://2asix-2021-22.github.io/ProjecteJSD/Socket)
-
-[Nmap](https://2asix-2021-22.github.io/ProjecteJSD/Socket)
-
-[SSH-AUDIT](https://2asix-2021-22.github.io/ProjecteJSD/SSH-Audit)
-
