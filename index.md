@@ -23,10 +23,19 @@ Que fa script?
 * Arranca l'app
 `sudo docker run -it app`
 
-[The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
+[Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
 
 [API Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
 
-[Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
+[The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
+[uDork](https://2asix-2021-22.github.io/ProjecteJSD/uDork)
+
+[Osintgram](https://2asix-2021-22.github.io/ProjecteJSD/Osintgram)
+
+[Socket](https://2asix-2021-22.github.io/ProjecteJSD/Socket)
+
+[Nmap](https://2asix-2021-22.github.io/ProjecteJSD/Socket)
+
+[SSH-AUDIT](https://2asix-2021-22.github.io/ProjecteJSD/SSH-Audit)
 
