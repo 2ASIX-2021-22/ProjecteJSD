@@ -19,4 +19,4 @@ Hem d'instal·lar la llibreria requests de Python `pip install requests`
 
 I per descomptat tenir Python instal·lat (**2.7 recomanat**)
 
-Un cop completats els passos anteriors, descarreguem el projecte `{git clone https://github.com/laramies/theHarvester.git`}
+Un cop completats els passos anteriors, descarreguem el projecte `{git clone https://github.com/laramies/theHarvester.git}`
