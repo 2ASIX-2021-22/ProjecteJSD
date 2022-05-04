@@ -17,13 +17,15 @@ Que fa script?
 * Instal·la els tres paquets de docker
 `sudo apt install docker docker.io docker-compose`
 * Construeix l'app
-`sudo docker build -t app .`
+`sudo docker build -t {name_app} /path/to/Dockerfile`
 * Mostra les imatges que tenim
 `sudo docker images`
 * Arranca l'app
 `sudo docker run -it app`
 
 [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
+
+[Docker](https://2asix-2021-22.github.io/ProjecteJSD/Docker)
 
 [API Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
 
