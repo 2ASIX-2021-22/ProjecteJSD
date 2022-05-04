@@ -15,9 +15,13 @@ Que fa script?
 `sudo apt update`
 
 * Instal·la els tres paquets de docker
+`sudo apt install docker docker.io docker-compose`
 * Construeix l'app
+`sudo docker build -t app .`
 * Mostra les imatges que tenim
+`sudo docker images`
 * Arranca l'app
+`sudo docker run -it app`
 
 [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
