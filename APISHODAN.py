@@ -5,10 +5,11 @@ import sys
 from shodan import Shodan
 from bot_telegram import enviarMensaje,enviarDocumento
 
+compte = input('Introdueix l\'API: ')
 # Demana a l'usuari una ip que la guardara en la variable dades.
 dades = input("Disme la ip que vols buscar: ")
 # Setup de API de (Sergi)
-api = Shodan('iyw7Is1pCQ2kCoqAn6KNEQvpT2VlqBpo')
+api = Shodan(compte)
 
 # Crearem dos variables una que guardarem la informació del equip que està a l'API de Shodan.
 result = api.host(dades)
