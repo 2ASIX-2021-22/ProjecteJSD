@@ -3,7 +3,7 @@
 ### Descargar el repositori del github per instal·lar la app.
 
 Un cop descarregat el projecte del github.
-`git clone git@github.com:2ASIX-2021-22/ProjecteJSD.git`
+`git clone https://github.com/2ASIX-2021-22/ProjecteJSD.git`
 
 ### Automatització de instal·lació de recursos
 
