@@ -6,9 +6,9 @@ Un cop descarregat el projecte del github.
 
 ## Bot de Telegram
 ### [Primer pas. Creació del bot](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/7.-Bot-de-Telegram)
-### [Segon pas. Introducció de les credencials]
+### Segon pas. Introducció de les credencials
 Entrarem al fitxer **bot_telegram.py**
-Modificarem el contingut de les variables **idBot** i **idGrupo** tal i com s'explica a la wiki.
+Modificarem el contingut de les variables **idBot** i **idGrupo** tal i com s'explica a la [wiki](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/7.-Bot-de-Telegram#enviem-missatges-a-telegram-mitjan%C3%A7ant-python).
 
 ## Automatització de instal·lació de recursos
 
