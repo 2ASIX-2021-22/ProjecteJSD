@@ -1,10 +1,10 @@
 # [Primers passos](https://2asix-2021-22.github.io/ProjecteJSD/)
-### Descargar el repositori del github per instal·lar la app.
+## Descargar el repositori del github per instal·lar la app.
 
 Un cop descarregat el projecte del github.
 `git clone https://github.com/2ASIX-2021-22/ProjecteJSD.git`
 
-### Automatització de instal·lació de recursos
+## Automatització de instal·lació de recursos
 
 Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
 
