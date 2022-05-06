@@ -1,4 +1,4 @@
-## Benvingut a la documentació de l'usuari
+# Primers passos
 
 ### Descargar el repositori del github per instal·lar la app.
 
