@@ -9,19 +9,11 @@ Un cop descarregat el projecte del github.
 
 Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
 
-Que fa script?
+Per executar l'script, s'ha d'accedir al terminal, al directori descarregat, i executar la següent ordre:
 
-* Automatiitza l'actualització del sistema
-`sudo apt update`
+`./scriptexecuciodocker.sh`
 
-* Instal·la els tres paquets de docker
-`sudo apt install docker docker.io docker-compose`
-* Construeix l'app
-`sudo docker build -t {name_app} /path/to/Dockerfile`
-* Mostra les imatges que tenim
-`sudo docker images`
-* Arranca l'app
-`sudo docker run -it app`
+Si et dona errors de permisos, es tenen que otorgar **permisos d'execució (+x)**.
 
 [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
 
