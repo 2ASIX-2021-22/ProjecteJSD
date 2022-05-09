@@ -6,29 +6,56 @@ def DemanaNumeroEnter():
     num=0
     while(not correcte):
         try:
-            num = int(input("Introdueix un numero de l'1 al 8: "))
+            num = int(input("    Introdueix un número de l'1 al 8: "))
             correcte=True
         except ValueError:
-            print('Error, Introdueix una opcio del menú:')
+            print('      Error, introdueix una opció del menú:')
      
     return num
  
 sortir = False
 opcio = 0
- 
+
 while not sortir:
-    print ("------------------------")
-    print ("Opció 1. API de Shodan")
-    print ("Opció 2. theHarvester")
-    print ("Opció 3. Bot telegram")
-    print ("Opció 4. uDork")
-    print ("Opció 5. Osintgram")
-    print ("Opció 6. Socket")
-    print ("Opció 7. Nmap")
-    print ("Opció 8. Sortir")
-    print ("------------------------")
+    print ("    ._____. ._____. ._________________. ._____. ._____.")
+    print ("    | ._. | | ._. | | ._____________. | | ._. | | ._. |")
+    print ("    | !_| |_|_|_! | | !_____________! | | !_| |_|_|_! |")
+    print ("    !___| |_______! !_________________! !___| |_______!")
+    print ("    .___|_|_| |_____________________________|_|_| |___.")
+    print ("    | ._____| |_________________________________| |_. |")
+    print ("    | !_! | | |                             | | ! !_! |")
+    print ("    !_____! | |                             | | !_____!")
+    print ("    ._____. | |       ##  ######  ########  | | ._____.")
+    print ("    | ._. | | |       ## ##    ## ##     ## | | | ._. |")
+    print ("    | | | | | |       ## ##       ##     ## | | | | | |")
+    print ("    | | | | | |       ##  ######  ##     ## | | | | | |")
+    print ("    | !_! | | | ##    ##       ## ##     ## | | ! !_! |")
+    print ("    !_____! | | ##    ## ##    ## ##     ## | | !_____!")
+    print ("    ._____. | |  ######   ######  ########  | | ._____.")
+    print ("    | ._. | | |                             | | | ._. |")
+    print ("    | !_| |_|_|_____________________________| |_|_|_! |")
+    print ("    !___| |_________________________________| |_______!")      
+    print ("    | ._____| |_________________________________| |_. |")
+    print ("    | !_! | | |                             | | ! !_! |")
+    print ("    !_____! | |   Opció 1. API de Shodan    | | !_____!")
+    print ("    ._____. | |   Opció 2. TheHarvester     | | ._____.")
+    print ("    | ._. | | |   Opció 3. Auditoria SSH    | | | ._. |")
+    print ("    | | | | | |   Opció 4. uDork            | | | | | |")
+    print ("    | | | | | |   Opció 5. Osintgram        | | | | | |")
+    print ("    | !_! | | |   Opció 6. Python.Socket    | | ! !_! |")
+    print ("    !_____! | |   Opció 7. Nmap             | | !_____!")
+    print ("    ._____. | |   Opció 8. Sortir           | | ._____.")
+    print ("    | ._. | | |                             | | | ._. |")
+    print ("    | !_| |_|_|_____________________________| |_|_|_! |")
+    print ("    !___| |_________________________________| |_______!")
+    print ("    .___|_|_| |___. ._________________. .___|_|_| |___.")
+    print ("    | ._____| |_. | | ._____________. | | ._____| |_. |")
+    print ("    | !_! | | !_! | | !_____________! | | !_! | | !_! |")
+    print ("    !_____! !_____! !_________________! !_____! !_____!")
+    print ("    ._____. ._____. ._________________. ._____. ._____.")
+
      
-    print ("Escull una opció")
+    print ("\n    Escull una opció")
  
     opcio = DemanaNumeroEnter()
  
@@ -55,6 +82,6 @@ while not sortir:
     elif opcio == 8:
         sortir = True
     else:
-        print ("Introduce un numero entre 1 y 8")
+        print ("    Introdueix un número entre l'1 i 8")
  
-print ("Fi del programa")
+print ("    Fi del programa")
