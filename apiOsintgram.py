@@ -3,12 +3,13 @@
 # Import per cridar l'eina theHarvester
 import asyncio
 import subprocess
-from bot_telegram import enviarMensaje, enviarDocumento
+from bot_telegram import enviarFotos, enviarMensaje, enviarDocumento
 def propic():
     enviarMensaje("Imatge de perfil")
     usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
-    enviarDocumento("/app/Osintgram/output/{}_propic.jpg".format(usuari))
+    #enviarDocumento("/app/Osintgram/output/{}_propic.jpg".format(usuari))
+    enviarFotos("./Osintgram/output/{}_propic.jpg".format(usuari))
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def photos():

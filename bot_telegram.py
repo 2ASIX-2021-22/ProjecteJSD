@@ -10,5 +10,9 @@ def enviarMensaje(mensaje):
 def enviarDocumento(ruta):
     requests.post('https://api.telegram.org/bot' + idBot + '/sendDocument',
               files={'document': (ruta, open(ruta, 'rb'))},
-              data={'chat_id': idGrupo, 'caption': 'imagen caption'})
+              data={'chat_id': idGrupo, 'caption': 'Document'})
+def enviarFotos(ruta):
+    requests.post('https://api.telegram.org/bot' + idBot + '/sendDocument',
+              files={'document': (ruta, open(ruta, 'rb'))},
+              data={'chat_id': idGrupo, 'caption': 'Fotos'})
 #enviarMensaje("Prova resultat")

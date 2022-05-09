@@ -40,6 +40,7 @@ def nmap_versio_servei():
     nmScan = nmap.PortScanner()
     resultprova = nmScan.scan(ip, '1-5000').keys()
     print(nmScan.csv())
+    enviarMensaje(nmScan.csv())
 def vulnerabilitats():
     
     ##Descarrega de scripts de vulnerabilitats(www.vulners.com)
@@ -52,7 +53,8 @@ def vulnerabilitats():
     print("------------------------\n")
     ip=input("[+] IP Objectiu ==> ")
     port=input("[+] Port Objectiu ==> ")
-    subprocess.call("nmap --script nmap-vulners -sV -p {} {}".format(port, ip), shell=True)
+    subprocess.call("nmap --script nmap-vulners -sV -oN vulnNmap.txt -p {} {}".format(port, ip), shell=True)
+    enviarDocumento("./vulnNmap.txt")
 def demanaNumeroEnter():
  
     correcte=False
