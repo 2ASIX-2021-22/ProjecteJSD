@@ -1,15 +1,12 @@
 #!/bin/bash
 
 ##################################################################################################
-# 									COOKIES CONFIGURATION										 #
+# 									COOKIES CONFIGURATION 				 						 #
 ##################################################################################################
 # ATENTION!!! Add your cookies as follows:
 # cookies="c_user=xxxxxxxxxxxxxxx; xs=xxxxxxxxxxxxxxxxxx;"
 # Instructions: https://c43s4rs.blogspot.com/2020/03/udork-tu-herramienta-para-google-dorks.html
-#Sergi
-#cookies="c_user=100001529050721; xs=42%3Axu9IPGG-h9E7lQ%3A2%3A1634923181%3A-1%3A10075%3A%3AAcXPHlhJ0zmEHtibsrBJzho2K3h4cI53px--Meeiyg;"
-#Jamal
-cookies="c_user=100003801582489; xs=130%3AFk4C1Yp4KPqdag%3A2%3A1638558973%3A-1%3A7011;"
+cookies="c_user=100042282336672; xs=25%3AZ4Xme0Dm7qRY4A%3A2%3A1652204518%3A-1%3A12725;" 
 ##################################################################################################
 
 # Variables
@@ -57,13 +54,13 @@ d_devices="$BaseDir/dorks/devices.txt"
 # Functions
 # Startup logo
 function banner_uDork(){
-	echo """
-       _____             _
-      |  __ \           | |
+	echo """                                                                
+       _____             _    
+      |  __ \           | |   
  _   _| |  | | ___  _ __| | __
 | | | | |  | |/ _ \| '__| |/ /
-| |_| | |__| | (_) | |  |   <
- \__,_|_____/ \___/|_|  |_|\_\ ${cBold}v.3.0
+| |_| | |__| | (_) | |  |   < 
+ \__,_|_____/ \___/|_|  |_|\_\ ${cBold}v.3.1
 	${cBold}by ${cRojo}M3n0sD0n4ld${cNormal} - (${cBold}${cAmarillo}@David_Uton${cNormal})
 """
 separador
@@ -159,36 +156,16 @@ function search(){
 	fi
 	# Execution
 	if [[ $type == "intext" ]]; then
-		resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https://www.google.com/search?q=site%3A${url}%2520"${flagEnc}"%26start%3D${i}0 |grep 'url?q=' | cut -d ' ' -f3 | cut -d "=" -f3 | sed 's/\(&am\).*//' | sed '/&gt/d' | sed '/like,/d' | sed '/xpd/d' | sed '/^ *$/d' | sed '/s3v9rd/d')
+		resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https:%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dsite%3A${url}%2520"${flagEnc}"%26start%3D${i}0 | grep 'url?q=' | cut -d ';' -f7 | cut -d '=' -f2 | sed 's/&amp//g' | grep -i ${url})
 	elif [[ $type == "intitle" ]]; then
 		if [[ $withDork == "1" ]]; then
-			resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https://www.google.com/search?q=site%3A${url}%2520"${flagEnc}"%26start%3D${i}0 |grep 'url?q=' | cut -d ' ' -f3 | cut -d "=" -f3 | sed 's/\(&am\).*//' | sed '/&gt/d' | sed '/like,/d' | sed '/xpd/d' | sed '/^ *$/d' | sed '/s3v9rd/d')
+			resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https:%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dsite%3A${url}%2520"${flagEnc}"%26start%3D${i}0 | grep 'url?q=' | cut -d ';' -f7 | cut -d '=' -f2 | sed 's/&amp//g' | grep -i ${url})
 		else
-			resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https://www.google.com/search?q=site%3A${url}%2520${type}%3A"${flagEnc}"%26start%3D${i}0 |grep 'url?q=' | cut -d ' ' -f3 | cut -d "=" -f3 | sed 's/\(&am\).*//' | sed '/&gt/d' | sed '/like,/d' | sed '/xpd/d' | sed '/^ *$/d' | sed '/s3v9rd/d')
+			resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https:%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dsite%3A${url}%2520${type}%3A"${flagEnc}"%26start%3D${i}0 | grep 'url?q=' | cut -d ';' -f7 | cut -d '=' -f2 | sed 's/&amp//g' | grep -i ${url})
 		fi
 	else
-		resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https://www.google.com/search?q=site%3A${url}%2520${type}%3A${flagEnc}%26start%3D${i}0 |grep 'url?q=' | cut -d ' ' -f3 | cut -d "=" -f3 | sed 's/\(&am\).*//' | sed '/&gt/d' | sed '/like,/d' | sed '/xpd/d' | sed '/^ *$/d' | sed '/s3v9rd/d')
+		resultado=$(curl -s --cookie "$cookies" https://developers.facebook.com/tools/debug/echo/?q=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dsite%3A${url}%2520${type}%3A"${flagEnc}"%26start%3D${i}0 | grep 'url?q=' | cut -d ';' -f7 | cut -d '=' -f2 | sed 's/&amp//g' | grep -i ${url})
 	fi
-}
-# URL Encoder/Decoder
-function urlencode() {
-    old_lc_collate=$LC_COLLATE
-    LC_COLLATE=C
-    
-    local length="${#1}"
-    for (( i = 0; i < length; i++ )); do
-        local c="${1:i:1}"
-        case $c in
-            [a-zA-Z0-9.~_-]) printf "$c" ;;
-            *) printf '%%%02X' "'$c" ;;
-        esac
-    done
-    
-    LC_COLLATE=$old_lc_collate
-}
-function urldecode(){
-	decoded_url=$(perl -MURI::Escape -e 'print uri_unescape($ARGV[0])' "$resultado")
-	echo "$decoded_url"
 }
 # Shows the result
 function banner_resultado(){
@@ -209,14 +186,14 @@ function banner_resultado(){
 		fi
 		if [[ $report == "-o" ]]; then 
 			checkDirs
-			urldecode $resultado | tee -a "$fileReport"
+			echo "$resultado" | tee -a "$fileReport"
 			contador
 		elif [[ $page == "-o" ]]; then
 			checkDirs
-			urldecode $resultado | tee -a "$numPage"
+			echo "$resultado" | tee -a "$numPage"
 			contador
 		else
-			urldecode $resultado
+			echo "$resultado"
 			contador
 		fi
 	fi
