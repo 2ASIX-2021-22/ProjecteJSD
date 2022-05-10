@@ -1,12 +1,15 @@
 #!/bin/python
 import subprocess
+from sys import stdout
+from bot_telegram import enviarMensaje, enviarDocumento
+
 
 def demanaNumeroEnter():
     correcto=False
     num=0
     while(not correcto):
         try:
-            num = int(input("Introdueix un numero de l'1 al 3: "))
+            num = int(input("Introdueix un numero de l'1 al 5: "))
             correcto=True
         except ValueError:
             print('Error, Introdueix una opcio del menú:')
@@ -14,18 +17,30 @@ def demanaNumeroEnter():
 
 def auditoriaCompleta():
     ip_host = input("Introdueix IP d'un dispositiu: ")
+    f = open("complet.txt", "w")
+    subprocess.call("python3 ./ssh-audit/ssh-audit.py {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("python3 ./ssh-audit/ssh-audit.py {}".format(ip_host), shell=True)
+    enviarDocumento("./complet.txt")
 def auditoriaFails():
     ip_host = input("Introdueix IP d'un dispositiu: ")
+    f = open("fails.txt", "w")
+    subprocess.call("python3 ./ssh-audit/ssh-audit.py --level fail {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("python3 ./ssh-audit/ssh-audit.py --level fail {}".format(ip_host), shell=True)
+    enviarDocumento("./fails.txt")
+
 def auditoriaWarn():
     ip_host = input("Introdueix IP d'un dispositiu: ")
+    f = open("warn.txt", "w")
+    subprocess.call("python3 ./ssh-audit/ssh-audit.py --level warn {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("python3 ./ssh-audit/ssh-audit.py --level warn {}".format(ip_host), shell=True)
+    enviarDocumento("./warn.txt")
+
 def auditoriaInfo():
     ip_host = input("Introdueix IP d'un dispositiu: ")
+    f = open("info.txt", "w")
+    subprocess.call("python3 ./ssh-audit/ssh-audit.py --level info {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("python3 ./ssh-audit/ssh-audit.py --level info {}".format(ip_host), shell=True)
-
-
+    enviarDocumento("./info.txt")
 
 
 sortir = False
