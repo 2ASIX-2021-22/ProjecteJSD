@@ -67,6 +67,7 @@ while not sortir:
         exec(open("apitheharvester.py").read())
     elif opcio == 3:
         print("Opció 3")
+        exec(open("ssh-audit.py").read())
     elif opcio == 4:
         print("Opció 4")
         exec(open("uDork.py").read())
