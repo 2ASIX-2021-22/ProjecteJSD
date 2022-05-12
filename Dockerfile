@@ -5,6 +5,7 @@ COPY . /app
 RUN apt update -y
 RUN apt install sudo -y
 RUN apt install p7zip-full -y
+RUN apt install smbclient perl -y
 RUN apt install libncurses5-dev -y
 RUN apt install nmap -y
 RUN apt install python3-nmap -y
