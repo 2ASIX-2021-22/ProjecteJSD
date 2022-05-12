@@ -1,5 +1,10 @@
+ERROR: nmblookup is not in your path.  Check that samba package is installed
+ERROR: net is not in your path.  Check that samba package is installed
+ERROR: rpcclient is not in your path.  Check that samba package is installed
+ERROR: smbclient is not in your path.  Check that samba package is installed
 WARNING: polenum is not in your path.  Check that package is installed and your PATH is sane.
 WARNING: ldapsearch is not in your path.  Check that package is installed and your PATH is sane.
+<<<<<<< HEAD
 Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Thu May 12 20:10:31 2022
 
 [34m =========================================( [0m[32mTarget Information[0m[34m )=========================================
@@ -44,3 +49,7 @@ user:[krbtgt] rid:[0x1f6]
 user:[jj] rid:[0x44f]
 enum4linux complete on Thu May 12 20:10:31 2022
 
+=======
+For Gentoo, you need to install the "samba" package
+For Debian, you need to install the "smbclient" package
+>>>>>>> 8ed273a017e8e245f0081485d68475bd4d82e5c4
