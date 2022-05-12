@@ -5,9 +5,9 @@ import sys
 from shodan import Shodan
 from bot_telegram import enviarMensaje,enviarDocumento
 
-compte = input('Introdueix l\'API: ')
+compte = input('    Introdueix l\'API: ')
 # Demana a l'usuari una ip que la guardara en la variable dades.
-dades = input("Disme la ip que vols buscar: ")
+dades = input("    Introdueix l'IP que vols buscar: ")
 # Setup de API de (Sergi)
 api = Shodan(compte)
 
@@ -21,7 +21,7 @@ try:
     # Bucle que recorre la informació de l'API:
     for service in result['data']:
         # Mostra el domini, la ip i els ports oberts trobats l'API;
-        print(service['domains'], service['ip_str'], service['port'])
+        print("   ",service['domains'], service['ip_str'], service['port'])
         dominis = service['domains']
         ip = service['ip_str']
         port = service['port']
@@ -29,14 +29,14 @@ try:
 
     try:
         # Demana un nom de servei a l'usuari:
-        dades2 = input("Introdueix un servei: ")
+        dades2 = input("    Introdueix un servei: ")
         # Buscara en l'API els resultats del servei indicat per l'usuari
         results = api.search(dades2)
         # Mostra els resultats obtinguts del servei i la IP indicats anteriorment
-        print('Resultats obtinguts: {}' . format(results['total']))
+        print('     Resultats obtinguts: {}' . format(results['total']))
         for result2 in results['matches']:
-            print('IP: {}' . format(service['ip_str']))
-            print(result2['data'])
+            print('     IP: {}' . format(service['ip_str']))
+            print(      result2['data'])
             print('')
             enviarMensaje(result2['data'])
     except Shodan.APIError:
