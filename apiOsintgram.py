@@ -5,49 +5,53 @@ import asyncio
 import subprocess
 from bot_telegram import enviarFotos, enviarMensaje, enviarDocumento
 def propic():
-    enviarMensaje("Imatge de perfil")
-    usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
+    usuari = input("    Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c propic".format(usuari), shell=True)
+    enviarMensaje("Imatge de perfil")
     #enviarDocumento("/app/Osintgram/output/{}_propic.jpg".format(usuari))
     enviarFotos("./Osintgram/output/{}_propic.jpg".format(usuari))
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def photos():
-    enviarMensaje("Imatge pujades")
-    usuari = input("Disme l'usuari d'Instagram que vols buscar: ")
+    usuari = input("    Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c photos".format(usuari), shell=True)
-    subprocess.call("cd /app/Osintgram/output && zip -r imatges.zip *",shell=True)
-    enviarDocumento("/app/Osintgram/output/imatges.zip")
+    subprocess.call("cd Osintgram/output && zip -r imatges.zip *",shell=True)
+    enviarMensaje("Imatge pujades")
+    enviarDocumento("./Osintgram/output/imatges.zip")
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def addrs():
-    enviarMensaje("Adreces")
-    usuari = input("Disme l'usuari d'Instagram del qual vols buscar les direccions a les imatges: ")
+    usuari = input("    Disme l'usuari d'Instagram del qual vols buscar les direccions a les imatges: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c addrs -f".format(usuari), shell=True)
+    enviarMensaje("Adreces")
     enviarDocumento("/app/Osintgram/output/{}_addrs.txt".format(usuari))
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 def fwersemail():
-    enviarMensaje("Emails")
-    usuari = input("Disme l'usuari d'Instagram del qual vols buscar el correu electrònic: ")
+    usuari = input("    Disme l'usuari d'Instagram del qual vols buscar el correu electrònic: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c fwersemail -f".format(usuari), shell=True)
+    enviarMensaje("Emails")
     enviarDocumento("/app/Osintgram/output/{}_fwersemail.txt".format(usuari))
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def info():
-    enviarMensaje("Info")
     usuari = input("Disme l'usuari d'Instagram del qual vols obtenir informació: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c info -f".format(usuari), shell=True)
+    enviarMensaje("Info")
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def fwingsnumber():
-    enviarMensaje("Numeros de mobil")
     usuari = input("Disme l'usuari d'Instagram del qual vols obtenir el número de telèfon dels usuaris seguits de l'objectiu: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c fwingsnumber -f".format(usuari), shell=True)
+    enviarMensaje("Numeros de mobil")
     enviarDocumento("/app/Osintgram/output/{}_fwingsnumber.txt".format(usuari))
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def followings():
-    enviarMensaje("Nom d'usuari")
     usuari = input("Disme l'usuari d'Instagram del qual vols obtenir el nom dels usuaris seguits de l'objectiu: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c followings -f".format(usuari), shell=True)
+    enviarMensaje("Nom d'usuari")
     enviarDocumento("/app/Osintgram/output/{}_followings.txt".format(usuari))
-
+    subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
 
 def demanaNumeroEnter():
     correcte=False
