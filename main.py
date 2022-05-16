@@ -64,7 +64,7 @@ while not sortir:
         exec(open("SHODAN.py").read())
     elif opcio == 2:
         print ("    Opció 2")
-        exec(open("apitheharvester.py").read())
+        exec(open("theharvester.py").read())
     elif opcio == 3:
         print ("    Opció 3")
         exec(open("ssh-audit.py").read())
@@ -73,10 +73,10 @@ while not sortir:
         exec(open("uDork.py").read())
     elif opcio == 5:
         print ("    Opció 5")
-        exec(open("apiOsintgram.py").read())
+        exec(open("Osintgram.py").read())
     elif opcio == 6:
         print ("    Opció 6")
-        exec(open("apiSocket.py").read())
+        exec(open("Socket.py").read())
     elif opcio == 7:
         print ("    Opció 7")
         exec(open("escaneigNmap.py").read())
@@ -84,8 +84,8 @@ while not sortir:
         print ("    Opció 8")
         exec(open("enum4linux.py").read())
     elif opcio == 9:
+        print ("    Fi del programa")
         sortir = True
     else:
         print ("\n    Introdueix un número entre l'1 i 9")
  
-print ("    Fi del programa")

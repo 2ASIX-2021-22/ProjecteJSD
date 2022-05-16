@@ -1,6 +1,6 @@
 WARNING: polenum is not in your path.  Check that package is installed and your PATH is sane.
 WARNING: ldapsearch is not in your path.  Check that package is installed and your PATH is sane.
-Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon May 16 20:33:46 2022
+Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon May 16 20:33:53 2022
 
 [34m =========================================( [0m[32mTarget Information[0m[34m )=========================================
 
@@ -31,8 +31,17 @@ Domain Sid: (NULL SID)
 [+] [0m[32mCan't determine if host is part of domain or part of a workgroup
 
 [0m
-[34m ======================================( [0m[32mUsers on 192.168.202.232[0m[34m )======================================
+[34m =================================( [0m[32mOS information on 192.168.202.232[0m[34m )=================================
 
-[0m
-enum4linux complete on Mon May 16 20:33:47 2022
+[0m[33m
+[E] [0m[31mCan't get OS info with smbclient
+
+[0m[33m
+[+] [0m[32mGot OS info for 192.168.202.232 from srvinfo: 
+[0m	SERGI-PC       Wk Sv PrQ Unx NT SNT sergi-pc server (Samba, Ubuntu)
+	platform_id     :	500
+	os version      :	6.1
+	server type     :	0x809a03
+
+enum4linux complete on Mon May 16 20:33:53 2022
 

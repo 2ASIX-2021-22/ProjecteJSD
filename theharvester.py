@@ -16,7 +16,7 @@ def demanaNumeroEnter():
             num = int(input("    Introdueix un número de l'1 al 3: "))
             correcto=True
         except ValueError:
-            print('    Error, introdueix una opcio del menú:')
+            print('    Error, introdueix una opció del menú:')
 
     return num
 
