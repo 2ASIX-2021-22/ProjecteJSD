@@ -22,7 +22,7 @@ def propic():
 def photos():
     usuari = input("    Disme l'usuari d'Instagram que vols buscar: ")
     subprocess.call("cd Osintgram && python3 ./main.py {} -c photos".format(usuari), shell=True)
-    subprocess.call("cd Osintgram/output && zip -r imatges.zip *",shell=True)
+    subprocess.call("cd ./Osintgram/output && zip -r imatges.zip *",shell=True)
     enviarMensaje("Imatge pujades")
     enviarDocumento("./Osintgram/output/imatges.zip")
     subprocess.call("cd Osintgram/output/ && rm -rf ./*", shell=True)
