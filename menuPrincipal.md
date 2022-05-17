@@ -6,6 +6,9 @@
 
 ### Tenim 9 opcions.
 
-### Cada opció es un programa implementat. Els programes són copiats de altres repositoris i implementats per a que ens funcioni a la nostra aplicació.
+### Cada opció té un programa implementat. Els programes són copiats d'altres repositoris i implementats per a què, ens funcioni a la nostra aplicació. Adequats a les necessitats demanades a classe i les que nosaltres hem cregut convenients.
+
+### [OPCIÓ 1. SHODAN](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/07.-Shodan)
+
 
 
