@@ -7,7 +7,7 @@
 ## En aquest manual es d'usuari, no explicarem el codi. Sols mostrarem el funcionament del programa! I farem unes mini explicacións del que podem extreure de la app.
 
 ## Com iniciar l'aplicació per primer cop?
-### Click al següent enllaç.[Primers passos](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
+### Clic al següent enllaç. [Primers passos](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
 
 
 # [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
