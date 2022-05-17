@@ -11,8 +11,17 @@
 ## Com iniciar l'aplicació per primer cop?
 ### Clic al següent enllaç. [Primers passos](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
 
-# [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
+## Un cop fet els primers passos, ja ens tindria que arrancar la app.
 
-# [API Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
+![image](https://user-images.githubusercontent.com/80519737/168885531-9ef3d416-e4ee-4c77-8154-bc4cf2532bf6.png)
+
+
+# [Menú Principal](https://2asix-2021-22.github.io/ProjecteJSD/menuPrincipal)
+
+
+# [Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
 
 # [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
+
+
+# [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
