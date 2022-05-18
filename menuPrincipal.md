@@ -25,9 +25,5 @@
 ### [OPCIÓ 8. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
 
 
-Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/07.-Shodan), mostrem com s'aconsegueix l'api de shodan.
-
-![image](https://user-images.githubusercontent.com/80519737/168890367-c2372262-65f0-4f35-b7c2-6b9d0e3e3c2c.png)
-
 
 
