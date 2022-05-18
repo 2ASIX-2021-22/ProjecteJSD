@@ -13,6 +13,9 @@ Tenim 4 opcions.
 Nota: Si està el bot configurat, també enviarà els resultats per telegram.
 
 Opció 1:  Auditoria completa. Aquesta auditoria enviara tots els resultats.
+
 Opció 2: Auditoria FAILS. Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
+
 Opció 3: Auditoria WARNS. Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
+
 Opció 3: Auditoria INFO. Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
