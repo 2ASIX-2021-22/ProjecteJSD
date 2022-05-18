@@ -19,3 +19,8 @@ Opció 2: Auditoria FAILS. Aquesta auditoria sols enviara tots els resultats "fa
 Opció 3: Auditoria WARNS. Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
 
 Opció 3: Auditoria INFO. Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
+
+![Auditoria_completa](https://user-images.githubusercontent.com/80519737/169100816-95fcc4d0-3753-44ed-b00f-411a92d04af2.png)
+![resultat_telegram](https://user-images.githubusercontent.com/80519737/169101033-f7c8d78d-e00e-4ef3-8a60-a131ac03034f.png)
+
+
