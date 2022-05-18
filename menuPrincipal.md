@@ -4,7 +4,7 @@
 
 ## El primer que ens mostra el programa es el menú de l'anterior captura.
 
-### Tenim 9 opcions.
+### Tenim 8 opcions.
 
 ### Cada opció té un programa implementat. Els programes són copiats d'altres repositoris i implementats per a què, ens funcioni a la nostra aplicació. Adequats a les necessitats demanades a classe i les que nosaltres hem cregut convenients.
 
@@ -20,9 +20,9 @@
 
 ### [OPCIÓ 6. LLIBRERIA SOCKET DE PYTHON](https://2asix-2021-22.github.io/ProjecteJSD/socket)
 
-### [OPCIÓ 8. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
+### [OPCIÓ 7. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
 
-### [OPCIÓ 9. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
+### [OPCIÓ 8. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
 
 
 Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/07.-Shodan), mostrem com s'aconsegueix l'api de shodan.
