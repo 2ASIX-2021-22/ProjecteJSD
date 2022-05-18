@@ -20,10 +20,18 @@ En aquest manual es d'usuari, **no** explicarem el **codi**. Sols mostrarem el f
 
 # [Menú Principal](https://2asix-2021-22.github.io/ProjecteJSD/menuPrincipal)
 
+# [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan)
 
-# [Shodan](https://2asix-2021-22.github.io/ProjecteJSD/apishodan)
+# [OPCIÓ 2. THEHARVESTER](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
-# [The Harvester](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
+# [OPCIÓ 3. AUDITORIA SSH](https://2asix-2021-22.github.io/ProjecteJSD/auditoriassh)
 
+# [OPCIÓ 4. UDORK](https://2asix-2021-22.github.io/ProjecteJSD/udork)
 
-# [Muntatge Raspberry Pi 4](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
+# [OPCIÓ 5. OSINTGRAM](https://2asix-2021-22.github.io/ProjecteJSD/osintgram)
+
+# [OPCIÓ 6. LLIBRERIA SOCKET DE PYTHON](https://2asix-2021-22.github.io/ProjecteJSD/socket)
+
+# [OPCIÓ 8. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
+
+# [OPCIÓ 9. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
