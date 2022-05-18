@@ -10,6 +10,20 @@
 
 ### [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan)
 
+### [OPCIÓ 2. THEHARVESTER](https://2asix-2021-22.github.io/ProjecteJSD/theharvester)
+
+### [OPCIÓ 3. AUDITORIA SSH](https://2asix-2021-22.github.io/ProjecteJSD/auditoriassh)
+
+### [OPCIÓ 4. UDORK](https://2asix-2021-22.github.io/ProjecteJSD/udork)
+
+### [OPCIÓ 5. OSINTGRAM](https://2asix-2021-22.github.io/ProjecteJSD/osintgram)
+
+### [OPCIÓ 6. LLIBRERIA SOCKET DE PYTHON](https://2asix-2021-22.github.io/ProjecteJSD/socket)
+
+### [OPCIÓ 8. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
+
+### [OPCIÓ 9. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
+
 
 Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/07.-Shodan), mostrem com s'aconsegueix l'api de shodan.
 
