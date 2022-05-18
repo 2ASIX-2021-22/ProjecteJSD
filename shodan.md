@@ -17,8 +17,11 @@ La ip que demana es la IP pública.
 
 ![image](https://user-images.githubusercontent.com/80519737/169052421-efc4c5e7-2c3a-412c-969f-9c3d6c38d641.png)
 
-### 2. Ara, ens pregunta el servei, i ens fa una búsqueda a la base de dades
-El que fa el programa es mostrar tot el que troba i ens el retorna per pantalla i si tenim el bot configurat, al telegram. 
+### 2. L'aplicació ens pregunta el servei, i ens fa una búsqueda a la base de dades de shodan.
+El que fa el programa es mostrar tota la informació que hi ha a la base de dades sobre el servei que hem demanat i ens retorna els resultats per pantalla. 
+Nota: Si tenim el bot configurat, retornarà els resultats al telegram. 
+
+![image](https://user-images.githubusercontent.com/80519737/169094485-64d7f67a-038f-437c-aac8-97ba15b85fe6.png)
 
 
 ###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
