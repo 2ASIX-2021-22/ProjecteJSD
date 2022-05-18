@@ -38,7 +38,7 @@ Aquesta opció, copia els ultims resultats que hem obtingut al elegir la primera
 
 ![image](https://user-images.githubusercontent.com/80519737/169098347-0e0830e8-0562-43b4-917f-3a6dea12f5f2.png)
 
-El resultat, l'envia en un fitxer html. Així tindriem que obtenir aquest resultat:
+El resultat, l'envia en un fitxer xml. Així tindriem que obtenir aquest resultat:
 ![image](https://user-images.githubusercontent.com/80519737/169098659-41c057d8-c010-43fa-84a4-b3bb7c05b5b5.png)
 
 
