@@ -7,10 +7,11 @@ Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic]
 
 
 
-##2  Consulta a Shodan en Python
+## 2  Consulta a Shodan en Python
 
 
-###### 1. L'aplicació pregunta una ip a l'usuari i mostra la informació d'aquesta IP rebuda des de shodan.
+### 1. L'aplicació pregunta una ip a l'usuari i mostra els ports oberts d'aquesta IP. 
+El que fa el programa es buscar a la base de dades de shodan i retorna els ports 
 
 La ip que demana es la IP pública.
 
