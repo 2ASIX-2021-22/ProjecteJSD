@@ -9,8 +9,11 @@ Molt fàcil! Anirem al menú principal, i elegirem la opció 7.
 ## Menú d'NMAP
 
 Opció 1. Escaneig IP's de la xarxa
+
 Opció 2. Ports a traves de una ip disponible
+
 Opció 3. Versions serveis
+
 Opció 4. Vulnerabilitats CVE
 
 
