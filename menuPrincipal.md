@@ -10,7 +10,7 @@
 
 ### [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan)
 
-### [OPCIÓ 2. THEHARVESTER](https://2asix-2021-22.github.io/ProjecteJSD/theharvester)
+### [OPCIÓ 2. THEHARVESTER](https://2asix-2021-22.github.io/ProjecteJSD/theHarvester)
 
 ### [OPCIÓ 3. AUDITORIA SSH](https://2asix-2021-22.github.io/ProjecteJSD/auditoriassh)
 
