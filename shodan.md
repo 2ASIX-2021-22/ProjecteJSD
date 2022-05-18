@@ -10,9 +10,11 @@ Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic]
 ##2  Consulta a Shodan en Python
 
 
-###### 1. L¡aplicació pregunta una ip a l'usuari i mostri la informació d'aquesta IP rebuda des de shodan.
+###### 1. L'aplicació pregunta una ip a l'usuari i mostra la informació d'aquesta IP rebuda des de shodan.
 
-![ex1](/Imatges/shodan/ex1.png)
+La ip que demana es la IP pública.
+
+![image](https://user-images.githubusercontent.com/80519737/169052421-efc4c5e7-2c3a-412c-969f-9c3d6c38d641.png)
 
 ###### 2.Modifica l'script per a que mostri únicament els noms de domini associats a la Ip i els ports oberts que ha trobat Shodan.
 1. Importar llibreries
