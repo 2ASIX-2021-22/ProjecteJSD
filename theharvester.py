@@ -30,7 +30,7 @@ while not salir:
     print ("    Opció 3. Tornar al menú")
     print ("    ------------------------")
 
-    print ("    Escull una opció")
+    print ("    Tria una opció: ")
 
     opcion = demanaNumeroEnter()
 

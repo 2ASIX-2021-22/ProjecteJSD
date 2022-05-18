@@ -9,26 +9,26 @@ def demanaNumeroEnter():
     num=0
     while(not correcto):
         try:
-            num = int(input("    Introdueix un numero de l'1 al 4: "))
+            num = int(input("    Introdueix un número de l'1 al 4: "))
             correcto=True
         except ValueError:
-            print(' Error, Introdueix una opcio del menú:')
+            print(' Error, Introdueix una opció del menú:')
     return num
 
 def auditoriaCompleta():
-    ip_host = input("    Introdueix IP d'un dispositiu: ")
+    ip_host = input("    Introdueix la IP d'un dispositiu: ")
     f = open("auditoriaCompleta.txt", "w")
     subprocess.call("./enum4linux.pl -A {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("./enum4linux.pl -A {}".format(ip_host), shell=True)
     enviarDocumento("./auditoriaCompleta.txt")
 def auditoriaUsuaris():
-    ip_host = input("    Introdueix IP d'un dispositiu: ")
+    ip_host = input("    Introdueix la IP d'un dispositiu: ")
     f = open("llistaUsuarisEnnum.txt", "w")
     subprocess.call("./enum4linux.pl -U {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("./enum4linux.pl -U {}".format(ip_host), shell=True)
     enviarDocumento("./llistaUsuarisEnnum.txt")
 def auditoriaSO():
-    ip_host = input("    Introdueix IP d'un dispositiu: ")
+    ip_host = input("    Introdueix la IP d'un dispositiu: ")
     f = open("llistaSOEnnum.txt", "w")
     subprocess.call("./enum4linux.pl -o {}".format(ip_host), shell=True, stdout=f)
     subprocess.call("./enum4linux.pl -o {}".format(ip_host), shell=True)
@@ -41,10 +41,10 @@ opcio = 0
 while not sortir:
     print("")
     print ("    ------------Auditoria recursos SMB-------------")
-    print ("    1. Auditoria Completa")
-    print ("    2. Llistar usuaris")
-    print ("    3. Auditoria S.O.")
-    print ("    4. Sortir")
+    print ("    Opció 1. Auditoria Completa")
+    print ("    Opció 2. Llistar usuaris")
+    print ("    Opció 3. Auditoria S.O.")
+    print ("    Opció 4. Sortir")
  
     print ("\n    Tria una opció: ")
     print("")

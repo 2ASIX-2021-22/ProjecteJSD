@@ -6,7 +6,7 @@ from bot_telegram import enviarMensaje, enviarDocumento
 
 def host_actiu():
     nm = nmap.PortScanner()
-    ip_xarxa = input("    Introdueix IP de la xarxa: ")
+    ip_xarxa = input("    Introdueix la IP de la xarxa (exemple: 192.168.1.0/24): ")
     nm.scan(hosts = ip_xarxa, arguments='-n -sP -PE')
     up_hosts = nm.all_hosts()		# Obtenir una llista de hosts actius
     enviarMensaje('IPs obertes: {}'.format(up_hosts))
@@ -61,10 +61,10 @@ def demanaNumeroEnter():
     num=0
     while(not correcte):
         try:
-            num = int(input("    Introdueix un número enter: "))
+            num = int(input("    Introdueix un número entre l'1 i el 5: "))
             correcte=True
         except ValueError:
-            print('    Error, introdueix un número enter')
+            print("    Error, introdueix un número entre l'1 i el 5")
      
     return num
  
@@ -74,11 +74,11 @@ opcio = 0
 while not sortir:
     print("")
     print ("    ------------NMAP-------------")
-    print ("    1. Escaneig IP's de la xarxa")
-    print ("    2. Ports a traves de una ip disponible")
-    print ("    3. Versions serveis")
-    print ("    4. Vulnerabilitats CVE")
-    print ("    5. Tornar al menú principal")
+    print ("    Opció 1. Escaneig IP's de la xarxa")
+    print ("    Opció 2. Ports a traves de una ip disponible")
+    print ("    Opció 3. Versions serveis")
+    print ("    Opció 4. Vulnerabilitats CVE")
+    print ("    Opció 5. Tornar al menú principal")
  
     print ("    Tria una opció: ")
     print("")

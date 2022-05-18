@@ -55,7 +55,7 @@ while not sortir:
     print ("    ._____. ._____. ._________________. ._____. ._____.")
 
      
-    print ("\n    Escull una opció")
+    print ("\n    Tria una opció: ")
  
     opcio = DemanaNumeroEnter()
  

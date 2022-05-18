@@ -49,11 +49,11 @@ opcio = 0
 while not sortir:
     print("")
     print ("    ------------Auditoria SSH-------------")
-    print ("    1. Auditoria completa")
-    print ("    2. Auditoria 'FAILS'")
-    print ("    3. Auditoria 'WARNS'")
-    print ("    4. Auditoria 'INFO'")
-    print ("    5. Tornar al menú principal")
+    print ("    Opció 1. Auditoria completa")
+    print ("    Opció 2. Auditoria 'FAILS'")
+    print ("    Opció 3. Auditoria 'WARNS'")
+    print ("    Opció 4. Auditoria 'INFO'")
+    print ("    Opció 5. Tornar al menú principal")
  
     print ("    Tria una opció")
     print("")
