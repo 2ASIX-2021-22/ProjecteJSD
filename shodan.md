@@ -10,7 +10,7 @@ Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic]
 ##2  Consulta a Shodan en Python
 
 
-###### 1. Realitza un petit programa que pregunti una ip a l'usuari i mostri la informació d'aquesta IP rebuda des de shodan.
+###### 1. L¡aplicació pregunta una ip a l'usuari i mostri la informació d'aquesta IP rebuda des de shodan.
 
 ![ex1](/Imatges/shodan/ex1.png)
 
