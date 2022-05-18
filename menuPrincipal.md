@@ -8,7 +8,7 @@
 
 ### Cada opció té un programa implementat. Els programes són copiats d'altres repositoris i implementats per a què, ens funcioni a la nostra aplicació. Adequats a les necessitats demanades a classe i les que nosaltres hem cregut convenients.
 
-### [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan)
+### [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan.md)
 
 ### [OPCIÓ 2. THEHARVESTER](https://2asix-2021-22.github.io/ProjecteJSD/theharvester)
 
