@@ -32,6 +32,6 @@ En aquest manual es d'usuari, **no** explicarem el **codi**. Sols mostrarem el f
 
 # [OPCIÓ 6. LLIBRERIA SOCKET DE PYTHON](https://2asix-2021-22.github.io/ProjecteJSD/socket)
 
-# [OPCIÓ 8. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
+# [OPCIÓ 7. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
 
-# [OPCIÓ 9. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
+# [OPCIÓ 8. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
