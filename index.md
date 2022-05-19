@@ -26,7 +26,7 @@ En aquest manual es d'usuari, **no** explicarem el **codi**. Sols mostrarem el f
 
 # [OPCIÓ 3. AUDITORIA SSH](https://2asix-2021-22.github.io/ProjecteJSD/auditoriassh)
 
-# [OPCIÓ 4. UDORK](https://2asix-2021-22.github.io/ProjecteJSD/udork)
+# [OPCIÓ 4. UDORK](https://2asix-2021-22.github.io/ProjecteJSD/uDork)
 
 # [OPCIÓ 5. OSINTGRAM](https://2asix-2021-22.github.io/ProjecteJSD/osintgram)
 
