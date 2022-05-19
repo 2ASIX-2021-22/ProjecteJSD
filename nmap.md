@@ -21,6 +21,7 @@ Opció 2. Ports a traves de una ip disponible
 Buscar amb l'eina nmap, els ports oberts d'un dispositiu.
 
 Exemple:
+
 ![image](https://user-images.githubusercontent.com/80519737/169174410-f75b7c1e-2c9e-4e5e-b1d7-13c8a930999c.png)
 
 
@@ -28,6 +29,7 @@ Opció 3. Versions serveis
 Buscar amb l'eina nmap, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat.
 
 Exemple:
+
 ![image](https://user-images.githubusercontent.com/80519737/169174779-7db10b6c-6c80-40eb-8ece-6bd387c5da51.png)
 
 
