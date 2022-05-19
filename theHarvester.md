@@ -27,11 +27,11 @@ Un cop completats els passos anteriors, descarreguem el projecte `{git clone htt
 
 Seleccionem l'**opció 2** del menú principal.
 
-## Un cop hem entrat a la opcio 2, apareixerà el següent menú:
+Un cop hem entrat, apareixerà el següent menú:
 
 ![image](https://user-images.githubusercontent.com/80519737/169096134-76fab5a2-b7f9-4a6f-bd96-720656c883fd.png)
 
-Tenim dues opcions disponibles
+Tenim dues opcions disponibles:
 
 **Opció 1: Execució**
 
@@ -49,7 +49,7 @@ Aquesta opció, copia els últims resultats que hem obtingut al elegir la primer
 
 ![image](https://user-images.githubusercontent.com/80519737/169098347-0e0830e8-0562-43b4-917f-3a6dea12f5f2.png)
 
-El resultat, l'envia en un fitxer xml. Així, hauríem d'obtenir aquest resultat:
+El resultat, l'envia en un fitxer xml. Hauríem d'obtenir un resultat semblant al que es veu a la imatge:
 
 ![image](https://user-images.githubusercontent.com/80519737/169098659-41c057d8-c010-43fa-84a4-b3bb7c05b5b5.png)
 
