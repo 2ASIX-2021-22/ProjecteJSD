@@ -6,23 +6,27 @@ Molt facil, anirem al menú principal, i elegirem la opció 3.
 
 ![image](https://user-images.githubusercontent.com/80519737/169099657-16579727-91c8-4f0e-8d83-b90aa7c2d63d.png)
 
-## Menú de l'auditoria ssh.
+## Menú de l'auditoria SSH.
 
-Tenim 4 opcions.
+Tenim quatre opcions disponibles.
 
-Nota: Si està el bot configurat, també enviarà els resultats per telegram.
+**NOTA:** Si està el bot configurat, també enviarà els resultats per telegram.
 
-Opció 1:  Auditoria completa. Aquesta auditoria enviara tots els resultats.
+**Opció 1:  Auditoria completa.** Aquesta auditoria enviara tots els resultats.
 
-Opció 2: Auditoria FAILS. Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
+**Opció 2: Auditoria FAILS.** Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
 
-Opció 3: Auditoria WARNS. Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
+**Opció 3: Auditoria WARNS.** Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
 
-Opció 3: Auditoria INFO. Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
+**Opció 4: Auditoria INFO.** Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
 
 ## Execució auditoria completa
 
+El funcionament del programa és molt senzill, simplement escollim l'opció, que volem provar en aquest cas, l'**auditoria completa** i podrem veure els resultats tal i com es mostra a la imatge.
+
 ![Auditoria_completa](https://user-images.githubusercontent.com/80519737/169100816-95fcc4d0-3753-44ed-b00f-411a92d04af2.png)
+
+Al tenir el bot de Telegram configurat, podem veure que ens enviar un fitxer .txt amb els resultats obtinguts.
 
 ![resultat_telegram](https://user-images.githubusercontent.com/80519737/169101033-f7c8d78d-e00e-4ef3-8a60-a131ac03034f.png)
 
