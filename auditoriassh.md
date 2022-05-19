@@ -2,7 +2,7 @@
 
 ## Com fer una auditoria ssh útilitzant la nostra aplicació?
 
-Molt facil, anirem al menú principal, i escollirem l'opció 3.
+Molt fàcil, anirem al menú principal, i escollirem l'**opció 3**.
 
 ![image](https://user-images.githubusercontent.com/80519737/169099657-16579727-91c8-4f0e-8d83-b90aa7c2d63d.png)
 
