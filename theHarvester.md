@@ -39,7 +39,7 @@ El programa, esta automatitzat per a que l'usuari sols tingui que introduïr el 
 
 ![image](https://user-images.githubusercontent.com/80519737/169097723-e6d60a1f-4ea9-406a-8739-9aac0c175a32.png)
 
-**NOTA:** The harvester, té diferents opcions de búsqueda, així que nosaltres hem escollit la millor opció per al nostre treball. Més informació a la wiki. 
+**NOTA:** The harvester, té diferents opcions de búsqueda, així que nosaltres hem escollit la millor opció per al nostre treball. Més informació a la [wiki](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/08.-TheHarvester).
 
 ![resultat_terminal](https://user-images.githubusercontent.com/80519737/169097941-11434fbd-e06d-4676-bdc3-0d882977fc76.png)
 
