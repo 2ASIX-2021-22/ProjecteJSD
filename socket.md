@@ -10,7 +10,7 @@ Seleccionarem l'**opció 6** de l'script.
 
 ### Opció 1: Obtenir la IP del meu dispositiu
 
-Si escollirem la primera opció, ens mostrarà directament la IP del dispositiu sobre el qual hem fet la cerca i, a més a més, el seu nom d'equip.
+Si escollirem la primera opció, ens mostrarà directament la **IP** del dispositiu sobre el qual hem fet la cerca i, a més a més, el seu **nom d'equip**.
 
 ![ip_dispo](https://user-images.githubusercontent.com/92753159/169514509-9c40aae2-aa58-437a-aa39-80b3b5dae070.png)
 
@@ -20,7 +20,7 @@ Els resultats s'enviaràn al bot de Telegram tal i com es veu a la imatge.
 
 ### Opció 2: Obtenir la IP pública d'un domini
 
-Si seleccionem la segona opció i introduïm un nom de domini, el programa ens mostrarà la IP pública del mateix.
+Si seleccionem la segona opció i introduïm un **nom de domini**, el programa ens mostrarà la **IP pública** del mateix.
 
 ![ip_pub](https://user-images.githubusercontent.com/92753159/169514531-3d8a9a67-1d5c-40de-b223-91fc4907106f.png)
 
@@ -30,7 +30,7 @@ I aquesta mateixa informació ens arribarà al bot de Telegram.
 
 ### Opció 3: Obtenir els ports oberts d'una IP pública
 
-L'última opció disponible, ens mostra d'una IP pública els ports que aquesta té oberts.
+L'última opció disponible, ens mostra de la **IP pública** que li introduïm, els **ports** que aquesta té oberts.
 
 ![ip_pub_ports](https://user-images.githubusercontent.com/92753159/169514537-7f991563-52c3-4062-a88e-aa19f326da32.png)
 
