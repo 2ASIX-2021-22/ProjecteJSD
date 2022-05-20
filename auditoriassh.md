@@ -1,6 +1,10 @@
 # Auditoria SSH
 
-## Com fer una auditoria ssh utilitzant la nostra aplicació?
+Per realitzar auditories SSH hem escollit SSH-Audit ja què, és una eina senzilla, intuitiva però, a la vegada molt potent per extreure tots els resultats que ens interesen.
+
+## Què és SSH Audit?
+
+SSH-Audit és una eina per a l'auditoria de configuració de client i servidor ssh.
 
 Molt fàcil, anirem al menú principal, i escollirem l'**opció 3**.
 
