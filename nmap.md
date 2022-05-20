@@ -12,15 +12,11 @@ Molt fàcil! Anirem al menú principal, i escollirem l'**opció 7**.
 
 Busca amb l'eina NMAP, tots els dispositius connectats a la xarxa.
 
-Exemple:
-
 ![image](https://user-images.githubusercontent.com/80519737/169173906-f2366ae3-6ae9-4982-89c7-7a76c4891d1c.png)
 
 ### Opció 2. Ports a través d'una IP disponible
 
 Busca amb l'eina NMAP, els ports oberts d'un dispositiu.
-
-Exemple:
 
 ![image](https://user-images.githubusercontent.com/80519737/169174410-f75b7c1e-2c9e-4e5e-b1d7-13c8a930999c.png)
 
@@ -29,8 +25,6 @@ Exemple:
 Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat. 
 
 I ho mostra amb format CSV per una lectura més senzilla.
-
-Exemple:
 
 ![image](https://user-images.githubusercontent.com/80519737/169174779-7db10b6c-6c80-40eb-8ece-6bd387c5da51.png)
 
