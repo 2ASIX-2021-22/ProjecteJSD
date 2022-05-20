@@ -24,14 +24,16 @@ Exemple:
 
 ![image](https://user-images.githubusercontent.com/80519737/169174410-f75b7c1e-2c9e-4e5e-b1d7-13c8a930999c.png)
 
-### **Opció 3. Versions serveis**
+### Opció 3. Versions serveis
 
-Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat. I ho mostra amb format CSV.
+Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat. 
+
+I ho mostra amb format CSV per una lectura més senzilla.
 
 Exemple:
 
 ![image](https://user-images.githubusercontent.com/80519737/169174779-7db10b6c-6c80-40eb-8ece-6bd387c5da51.png)
 
-### **Opció 4. Vulnerabilitats CVE
+### Opció 4. Vulnerabilitats CVE
 
-Nota: Si està el bot configurat, també enviarà els resultats per telegram.
+**NOTA:** Si està el bot configurat, també enviarà els resultats per Telegram.
