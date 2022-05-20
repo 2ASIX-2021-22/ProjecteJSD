@@ -12,17 +12,17 @@ Molt fàcil! Anirem al menú principal, i escollirem l'**opció 7**.
 
 Busca amb l'eina NMAP, tots els dispositius connectats a la xarxa.
 
-![image](https://user-images.githubusercontent.com/80519737/169173906-f2366ae3-6ae9-4982-89c7-7a76c4891d1c.png)
+![ip_nmap](https://user-images.githubusercontent.com/92753159/169501179-0a0d1cd2-c61e-4d13-a355-e76f4a763638.png)
 
-FOTO
+![ip_tele](https://user-images.githubusercontent.com/92753159/169500142-633b13fc-d371-48a9-8b61-8549ed4a6fc4.png)
 
 ### Opció 2. Ports a través d'una IP disponible
 
 Busca amb l'eina NMAP, els ports oberts d'un dispositiu.
 
-![image](https://user-images.githubusercontent.com/80519737/169174410-f75b7c1e-2c9e-4e5e-b1d7-13c8a930999c.png)
+![port_nmap](https://user-images.githubusercontent.com/92753159/169501936-ba828f98-bee6-490c-8165-89f29ee09e33.png)
 
-FOTO
+![port_tele](https://user-images.githubusercontent.com/92753159/169500768-e59c4ffc-4a96-4f76-b643-a7df938c20ba.png)
 
 ### Opció 3. Versions serveis
 
@@ -30,9 +30,9 @@ Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis q
 
 I ho mostra amb **format CSV** per facilitar la lectura a l'usuari.
 
-![image](https://user-images.githubusercontent.com/80519737/169174779-7db10b6c-6c80-40eb-8ece-6bd387c5da51.png)
+![versions_nmap](https://user-images.githubusercontent.com/92753159/169502467-1ab9f0f1-5165-47ed-a52a-b22b12dc463d.png)
 
-FOTO
+![versions_tele](https://user-images.githubusercontent.com/92753159/169502823-3c7701ea-c25b-4327-ac5f-934831ef54d5.png)
 
 ### Opció 4. Vulnerabilitats CVE
 
@@ -41,6 +41,6 @@ Mitjançant els scripts **nmap-vulners** i **vulscan** i amb tota la potència d
 ![nmap_vuln1](https://user-images.githubusercontent.com/92753159/169496523-c9f355a1-6054-4c1d-8f2c-ebece9a9a08e.png)
 ![nmap_vuln2](https://user-images.githubusercontent.com/92753159/169496652-3330d564-9da1-48a4-b9d7-a1866608cbe9.png)
 
-FOTO
+![vuln_tele](https://user-images.githubusercontent.com/92753159/169503408-f7000d8a-4111-4bf2-908e-f03c042b8dd2.png)
 
 **NOTA:** Tots aquests resultats arribaran al bot de Telegram si està configurat.
