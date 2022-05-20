@@ -1,4 +1,4 @@
-# Informe final per a l'usuari
+# Informe final de l'usuari
 
 ## Què conté l'informe final de l'usuari?
 
