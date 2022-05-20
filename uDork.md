@@ -2,7 +2,7 @@
 
 ## Què és uDork?
 
-És una eina OSINT composta per un script que utilitza tècniques avançades de cerca de Google per obtenir informació confidencial en fitxers o directoris, trobar dispositius IoT, detectar versions d'aplicacions web, etc.
+**[uDork](https://github.com/m3n0sd0n4ld/uDork)** és una eina **[OSINT](https://derechodelared.com/osint/)** composta per un script que utilitza tècniques avançades de cerca de Google per obtenir informació confidencial en fitxers o directoris, trobar dispositius IoT, detectar versions d'aplicacions web, etc.
 
 ![menu](https://user-images.githubusercontent.com/56296299/169579502-90f0dd14-6964-4edd-b767-a2b814b07aa8.png)
 
