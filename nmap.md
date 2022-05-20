@@ -30,4 +30,9 @@ I ho mostra amb format CSV per una lectura més senzilla.
 
 ### Opció 4. Vulnerabilitats CVE
 
+ss
+
+![nmap_vuln1](https://user-images.githubusercontent.com/92753159/169496523-c9f355a1-6054-4c1d-8f2c-ebece9a9a08e.png)
+![nma_vuln2](https://user-images.githubusercontent.com/92753159/169496652-3330d564-9da1-48a4-b9d7-a1866608cbe9.png)
+
 **NOTA:** Si està el bot configurat, també enviarà els resultats per Telegram.
