@@ -1,8 +1,8 @@
-# NMAP
+# Nmap
 
-## Què és NMAP?
+## Què és Nmap?
 
-NMAP és una eina per a l'exploració de xarxes. Pot ser utilitzada per monitoritzar hosts individuals així com xarxes extenses que abasten centenars de milers de dispositius i multituds de subxarxes.
+**[Nmap](https://nmap.org)** és una eina per a l'exploració de xarxes. Pot ser utilitzada per monitoritzar **hosts** individuals així com **xarxes** extenses que abasten centenars de milers de dispositius i multituds de subxarxes.
 
 ## Com fer una cerca a NMAP utilitzant la nostra aplicació?
 
