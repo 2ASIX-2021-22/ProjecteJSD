@@ -24,7 +24,7 @@ I ens arribarà al bot de Telegram.
 
 ![fotoperfil_telegram](https://user-images.githubusercontent.com/56296299/169569734-c1315430-ca31-4f9d-958b-a968688ebd55.png)
 
-### Opcio 2
+### Opcio 2: Veure fotografies publicades a Instagram
 
 La segona opció ens permetrà obtenir **totes les fotografies** de qualsevol usuari, i les comprimirà en un arxiu .zip anomenat **imatges.zip**.
 
@@ -34,7 +34,7 @@ Aquest arxiu .zip que ens ha generat s'enviarà al bot de Telegram i podrem visu
 
 ![fotos_pujades_telegram](https://user-images.githubusercontent.com/56296299/169569754-5fcbdbef-b930-4052-af28-405028887c8a.png)
 
-### Opcio 3
+### Opcio 3: Obtenir les adreces etiquetades a les fotografies
 
 La tercera opció ens permetrà obtenir les **adreces** que els usuaris han etiquetat a les imatges.
 
@@ -44,7 +44,7 @@ I les enviarà totes en un arxiu .txt al bot de Telegram.
 
 ![adreces_fotos_telegram](https://user-images.githubusercontent.com/56296299/169569700-9830be45-2aec-4f15-9274-765ef41ea273.png)
 
-### Opcio 4
+### Opcio 4: Obtenir el correu electrònic dels seguidors
 
 La quarta opció ens permetrà obtenir els **correus electrònics** dels nostres seguidors.
 
@@ -54,7 +54,7 @@ Ens enviarà tots els **correus** al bot de Telegram amb un arxiu .txt.
 
 ![emails_seguidors_telegram](https://user-images.githubusercontent.com/56296299/169569721-2e5ecca3-30f2-4cfa-b2ed-8283d4987d98.png)
 
-### Opcio 5
+### Opcio 5: Obtenir informació de l'usuari objectiu
 
 La cinquena ens permetrà obtenir la **informació dels usuaris (el que es veu a la capçalera del perfil)**.
 
@@ -64,9 +64,9 @@ Tota aquesta informació ens arribarà al bot de Telegram.
 
 ![info_telegram](https://user-images.githubusercontent.com/56296299/169569769-7b8cf979-1cb8-41b6-b9b1-32a033e0e785.png)
 
-### Opcio 6
+### Opcio 6: Obtenir el número de telèfon dels usuaris seguits per l'objectiu
 
-La sisena opció ens permetrà obtenir els **números de telèfon** dels nostres seguidors.
+La sisena opció ens permetrà obtenir els **números de telèfon** dels usuaris seguits pel nostre objectiu.
 
 ![numeros](https://user-images.githubusercontent.com/56296299/169569797-1d0dfe16-cc13-4b64-af7c-8e678070f7fd.png)
 
@@ -74,9 +74,9 @@ I ens arribaran en un fitxer .txt al bot de Telegram.
 
 ![numeros_telegram](https://user-images.githubusercontent.com/56296299/169569802-019a106b-e8a9-49be-9e1f-b33feb28b592.png)
 
-### Opcio 7
+### Opcio 7: Obtenir el nom d'usuari dels usuaris seguits per l'objectiu
 
-L'Última opció ens permetrà obtenir els **noms d'usuaris** dels seguidors del nostre objectiu.
+L'Última opció ens permetrà obtenir els **noms d'usuaris** dels usuaris seguits pel nostre objectiu.
 
 ![nom_usuari](https://user-images.githubusercontent.com/56296299/169569781-46251778-9baf-4594-893c-7477265b386e.png)
 
