@@ -10,19 +10,19 @@ Molt fàcil, anirem al menú principal, i escollirem l'**opció 3**.
 
 Tenim quatre opcions disponibles.
 
-**Opció 1:  Auditoria completa.** Aquesta auditoria enviara tots els resultats.
+**Auditoria completa.** Aquesta auditoria enviara tots els resultats.
 
-**Opció 2: Auditoria FAILS.** Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
+**Auditoria FAILS.** Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
 
-**Opció 3: Auditoria WARNS.** Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
+**Auditoria WARNS.** Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
 
-**Opció 4: Auditoria INFO.** Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
+**Auditoria INFO.** Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
 
 **NOTA:** Si està el bot configurat, també enviarà els resultats per Telegram.
 
 ## Com utilitzar l'eina?
 
-### Execució auditoria completa
+### Opció 1: Auditoria completa
 
 El funcionament del programa és molt senzill, simplement escollim l'opció, que volem provar en aquest cas, l'**auditoria completa** i podrem veure els resultats tal i com es mostra a la imatge.
 
@@ -32,7 +32,7 @@ Al tenir el bot de Telegram configurat, podem veure que ens enviar un fitxer .tx
 
 ![resultat_telegram](https://user-images.githubusercontent.com/80519737/169101033-f7c8d78d-e00e-4ef3-8a60-a131ac03034f.png)
 
-### Execució fails
+### Opció 2: Auditoria 'FAILS'
 
 Si escollim la segona opció només ens mostrarà els **fails (errors)**.
 
@@ -42,7 +42,7 @@ Igual que al punt anterior s'enviaran els resultats al bot del Telegram.
 
 ![tele_fails](https://user-images.githubusercontent.com/56296299/169372643-5fdf6ae4-cf39-4256-a86a-cbb5647f8f6f.png)
 
-### Execució warns
+### Opció 3: Auditoria 'WARNS'
 
 Si escollim la tercera opció només ens mostrarà els **warns (warnings)**.
 
@@ -52,7 +52,7 @@ I enviarà els resultats al bot del Telegram.
 
 ![tele_warns](https://user-images.githubusercontent.com/56296299/169372701-c986d8b6-e583-491a-afc3-c626465febb7.png)
 
-### Execució info
+### Opció 4: Auditoria 'INFO'
 
 L'última opció ens mostrarà **informació (info)** dels serveis, algoritmes...
 
