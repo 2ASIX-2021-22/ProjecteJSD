@@ -18,7 +18,7 @@
 
 ### Opció 3
 
-![text_url](https://user-images.githubusercontent.com/56296299/169579399-00e2c1ef-23a7-448c-91c1-04edcb2d35f2.png)
+![text_url](https://user-images.githubusercontent.com/56296299/169580779-3f71e6cd-7100-47f9-973e-baccf63e5b0f.png)
 
 ![url_telegram](https://user-images.githubusercontent.com/56296299/169580208-448a90dd-93a6-4ad3-94e4-ea1dd957edd4.png)
 
