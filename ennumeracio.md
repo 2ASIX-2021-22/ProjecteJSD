@@ -1,4 +1,4 @@
-# Ennumeració
+# Enumeració
 
 ## Que fa Enum4linux?
 
