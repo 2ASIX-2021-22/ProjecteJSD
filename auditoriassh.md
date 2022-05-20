@@ -1,28 +1,16 @@
 # Auditoria SSH
 
-Per realitzar auditories SSH hem escollit SSH-Audit ja què, és una eina senzilla, intuitiva però, a la vegada molt potent per extreure tots els resultats que ens interesen.
-
 ## Què és SSH Audit?
 
 SSH-Audit és una eina per a l'auditoria de configuració de client i servidor ssh.
 
+Per realitzar auditories SSH hem escollit SSH-Audit ja què, és una eina senzilla, intuitiva però, a la vegada molt potent per extreure tots els resultats que ens interesen.
+
+## Com realitzem una auditoria SSH amb la nostra aplicació?
+
 Molt fàcil, anirem al menú principal, i escollirem l'**opció 3**.
 
 ![image](https://user-images.githubusercontent.com/80519737/169099657-16579727-91c8-4f0e-8d83-b90aa7c2d63d.png)
-
-## Menú de l'auditoria SSH.
-
-Tenim quatre opcions disponibles.
-
-**Auditoria completa.** Aquesta auditoria enviara tots els resultats.
-
-**Auditoria FAILS.** Aquesta auditoria sols enviara tots els resultats "fails" que ha obtingut.
-
-**Auditoria WARNS.** Aquesta auditoria sols enviara tots els resultats "warns" que ha obtingut.
-
-**Auditoria INFO.** Aquesta auditoria sols enviara tots els resultats "info" que ha obtingut.
-
-**NOTA:** Si està el bot configurat, també enviarà els resultats per Telegram.
 
 ## Com utilitzar l'eina?
 
