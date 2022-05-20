@@ -26,7 +26,7 @@ Tenim quatre opcions disponibles.
 
 El funcionament del programa és molt senzill, simplement escollim l'opció, que volem provar en aquest cas, l'**auditoria completa** i podrem veure els resultats tal i com es mostra a la imatge.
 
-![Auditoria_completa](https://user-images.githubusercontent.com/80519737/169100816-95fcc4d0-3753-44ed-b00f-411a92d04af2.png)
+![auditoria_completa](https://user-images.githubusercontent.com/92753159/169493068-a379f002-1cc5-47c4-bf17-772c1bd32291.png)
 
 Al tenir el bot de Telegram configurat, podem veure que ens enviar un fitxer .txt amb els resultats obtinguts.
 
