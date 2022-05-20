@@ -1,47 +1,65 @@
-# Muntatge de la Raspberry
+## Muntatge de la Raspberry
+Aquí, explicarem pas a pas el muntatge de la Raspberry es tracta del model **[Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**
 
 ## Foto de la caixa
+Com s'ha dit al punt anterior, es tracta de la **Raspberry Pi Model B** amb **4 GB** de memòria RAM.
 
-![muntatgeRasberry](/Imatges/muntatgerasp/01.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/01.jpg)
 
-## Instruccións del fabricant
+## Instruccions del fabricant
+A continuació, pots veure dues imatges de les instruccions del fabricant per tal de muntar correctament la Raspberry.
 
-![muntatgeRasberry](/Imatges/muntatgerasp/02.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/02.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/02-1.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/02-1.jpg)
 
-## Pas a Pas
+## Muntatge pas a pas
+Mostrem imatges del muntatge de la Raspberry pas a pas.
 
-### Pas 1 i 2
+### Passos 1 i 2
 
-![muntatgeRasberry](/Imatges/muntatgerasp/03.jpg)
+Comencem muntant la primera part de la raspberry...
 
-### Pas 3 i 4
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/03.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/08.jpg)
+### Passos 3 i 4
 
-### Pas 5 i 6
+Tot seguit, muntem la placa base...
 
-![muntatgeRasberry](/Imatges/muntatgerasp/11.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/08.jpg)
 
-### Pas 7 i 8
+### Passos 5 i 6
 
-![muntatgeRasberry](/Imatges/muntatgerasp/12.jpg)
+Posem els disipadors al seu lloc seguint les imatges de les instruccions...
+
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/11.jpg)
+
+### Passos 7 i 8
+
+Posem el ventilador connectant els pins amb cura de no equivocar-nos...
+
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/12.jpg)
 
 ### Pas 9
 
-![muntatgeRasberry](/Imatges/muntatgerasp/14.jpg)
+Ho fixem amb els cargols...
 
-### Pas 10 i 1
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/14.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/15.jpg)
+### Passos 10 i 11
+
+I per últim, posem la tapa.
+
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/15.jpg)
 
 ### Pas 12 resultat final
 
-![muntatgeRasberry](/Imatges/muntatgerasp/17.jpg)
+Aquí, podem veure les imatges del resultat final un cop s'ha muntat la raspberry correctament.
 
-![muntatgeRasberry](/Imatges/muntatgerasp/18.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/17.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/20.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/18.jpg)
 
-![muntatgeRasberry](/Imatges/muntatgerasp/21.jpg)
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/20.jpg)
+
+![muntatgeRasberry](https://github.com/2ASIX-2021-22/ProjecteJSD/blob/gh-pages/Imatges/muntatgerasp/21.jpg)
