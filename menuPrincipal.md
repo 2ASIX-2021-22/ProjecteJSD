@@ -1,10 +1,10 @@
 # Menú principal
 
-El primer que ens mostra el programa és el menú de l'anterior captura.
+El primer que ens mostra el programa és el **menú** de l'anterior captura.
 
 ![image](https://user-images.githubusercontent.com/80519737/168886136-94428470-35a7-4236-b98d-2fc23bf786df.png)
 
-L'aplicació té 8 opcions disponibles.
+L'aplicació té **8 opcions** disponibles.
 
 Cada opció té un programa implementat. Els programes són copiats d'altres repositoris i implementats per a què, ens funcioni a la nostra aplicació. Adequats també, a les necessitats demanades a classe i a les que nosaltres hem cregut convenients.
 
