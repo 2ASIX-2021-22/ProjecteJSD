@@ -2,7 +2,7 @@
 
 ## Que fa Enum4linux?
 
-És una eina que ens permetrà enumerar informació del servei Samba. Intenta oferir una funcionalitat similar a enum.exe que abans estava disponible per a sistemes Windows.
+**[Enum4linux](https://www.kali.org/tools/enum4linux/)** és una eina que ens permetrà enumerar informació del **servei Samba**. Intenta oferir una funcionalitat similar a enum.exe que abans estava disponible per a sistemes Windows.
 
 ## Com obtenim informació dels nostres serveis SAMBA amb la nostra aplicació?
 
