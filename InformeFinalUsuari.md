@@ -4,6 +4,8 @@
 
 Es tracta d'un arxiu **.pdf** que podem **emplenar** nosaltres mateixos i desar els canvis per visualitzar-los sempre que ho necessitem.
 
+Aquí, tenim un exemple de com introduíriem dades a l'informe.
+
 ![informe_pdf](https://user-images.githubusercontent.com/92753159/169624033-8e58f7b6-2829-45a0-bec1-708dff4290fc.png)
 
 ## Per a què serveix l'informe final de l'usuari?
