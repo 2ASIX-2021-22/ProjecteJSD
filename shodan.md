@@ -2,7 +2,7 @@
 
 ## Què és Shodan?
 
-**[Shodan](https://www.shodan.io/)** és un motor de cerca que permet a l'usuari trobar, gràcies a l'especificació per filtres, diferents tipus d'equips (routers, servidors, etc.) connectats a Internet.
+**[Shodan](https://www.shodan.io/)** és un **motor de cerca** que permet a l'usuari trobar, gràcies a l'especificació per filtres, diferents tipus d'equips (routers, servidors, etc.) connectats a Internet.
 
 ## Com funciona l'eina?
 
