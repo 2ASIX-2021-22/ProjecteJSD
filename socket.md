@@ -2,7 +2,7 @@
 
 ## Què és la llibreria Socket de Python.
 
-Ens permet obtenir informació del equip per exemple, la seva **IP, el seu **nom d'equip** també, permet obtenir **IPS públiques**.
+Ens permet obtenir informació del equip per exemple, la seva **IP**, el seu **nom d'equip** també, permet obtenir **IPS públiques**.
 
 ## Com realitzar una cerca a la llibreria Socket de la nostra aplicació?
 
