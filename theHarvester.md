@@ -1,11 +1,11 @@
 
-# The Harvester
+# TheHarvester
 
-## Què és The Harvester?
+## Què és TheHarvester?
 
-The Harvester és una eina per recol·lectar informació pública a la web. Aprèn com funciona per anticipar-te a atacs d'enginyeria social.
+**[TheHarvester](https://github.com/laramies/theHarvester)** és una eina per recol·lectar informació pública a la web. Aprèn com funciona per anticipar-te a atacs d'enginyeria social.
 
-És una eina per aconseguir informació sobre emails, subdominis, hosts, noms d'empleats, ports oberts, banners, etc. des de fonts públiques com són els motors de cerca, servidors PGP, la xarxa social LinkedIn i la base de dades de Shodan (Cercador semblant a Google però amb la diferència que no indexa contingut, sinó que registra qualsevol dispositiu connectat a Internet).
+És una eina per aconseguir informació sobre **emails**, **subdominis**, **hosts**, **noms d'empleats**, **ports oberts**, **banners**, etc. des de fonts públiques com són els motors de cerca, servidors PGP, la xarxa social LinkedIn i la base de dades de Shodan (Cercador semblant a Google però amb la diferència que no indexa contingut, sinó que registra qualsevol dispositiu connectat a Internet).
 
 ![image](https://user-images.githubusercontent.com/80519737/169096715-f2888767-d59e-40b3-9786-7afd5b8aac22.png)
 
