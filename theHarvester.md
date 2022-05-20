@@ -33,7 +33,7 @@ Un cop hem entrat, apareixerà el següent menú:
 
 Tenim dues opcions disponibles:
 
-**Opció 1: Execució**
+### **Opció 1: Execució**
 
 El programa, esta automatitzat per a que l'usuari sols tingui que introduïr el domini al qual volem atacar, i els resultats que volem que ens retorni.
 
@@ -43,7 +43,7 @@ El programa, esta automatitzat per a que l'usuari sols tingui que introduïr el 
 
 ![resultat_terminal](https://user-images.githubusercontent.com/80519737/169097941-11434fbd-e06d-4676-bdc3-0d882977fc76.png)
 
-**Opció 2: Mostrar els resultats**
+### **Opció 2: Mostrar els resultats**
 
 Aquesta opció, copia els últims resultats que hem obtingut al elegir la primera opció "Execució", i els envia al Telegram mitjançant el bot.
 
