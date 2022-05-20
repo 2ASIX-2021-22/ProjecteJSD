@@ -8,7 +8,7 @@ Molt fàcil! Anirem al menú principal, i escollirem l'**opció 7**.
 
 ## Com utilitzar l'eina?
 
-### Opció 1. Escaneig IP's de la xarxa
+### Opció 1: Escaneig IP's de la xarxa
 
 Busca amb l'eina NMAP, tots els dispositius connectats a la xarxa.
 
@@ -18,7 +18,7 @@ La informació obtinguda arribarà al bot de Telegram.
 
 ![ip_tele](https://user-images.githubusercontent.com/92753159/169500142-633b13fc-d371-48a9-8b61-8549ed4a6fc4.png)
 
-### Opció 2. Ports a través d'una IP disponible
+### Opció 2: Ports a través d'una IP disponible
 
 Busca amb l'eina NMAP, els ports oberts d'un dispositiu.
 
@@ -28,7 +28,7 @@ La informació obtinguda arribarà al bot de Telegram.
 
 ![port_tele](https://user-images.githubusercontent.com/92753159/169500768-e59c4ffc-4a96-4f76-b643-a7df938c20ba.png)
 
-### Opció 3. Versions serveis
+### Opció 3: Versions serveis
 
 Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat. 
 
@@ -40,7 +40,7 @@ La informació obtinguda arribarà al bot de Telegram amb **format CSV**.
 
 ![versions_tele](https://user-images.githubusercontent.com/92753159/169502823-3c7701ea-c25b-4327-ac5f-934831ef54d5.png)
 
-### Opció 4. Vulnerabilitats CVE
+### Opció 4: Vulnerabilitats CVE
 
 Mitjançant els scripts **nmap-vulners** i **vulscan** i amb tota la potència de l'eina NMAP busca les vulnerabilitats que podem tenir al dispositiu en qüestió.
 
