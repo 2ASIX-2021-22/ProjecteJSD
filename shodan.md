@@ -12,15 +12,16 @@ Un cop hem entrat a l'opció de shodan, ens demanarà l'api. Al [manual tècnic]
 
 ### Opció 1. Consulta a Shodan en Python
 
-L'aplicació pregunta una ip a l'usuari i mostra els ports oberts d'aquesta IP. 
+L'aplicació pregunta una IP a l'usuari i mostra els ports oberts d'aquesta IP. 
 
-El que fa el programa es buscar a la base de dades de shodan i retorna els ports 
+El que fa el programa es buscar a la base de dades de shodan i retorna els ports. 
 
 La ip que demana es la IP pública.
 
 ![image](https://user-images.githubusercontent.com/80519737/169052421-efc4c5e7-2c3a-412c-969f-9c3d6c38d641.png)
 
-L'aplicació ens pregunta el servei, i ens fa una búsqueda a la base de dades de shodan.
+L'aplicació ens pregunta el servei, i ens fa una búsqueda a la base de dades de Shodan.
+
 El que fa el programa es mostrar tota la informació que hi ha a la base de dades sobre el servei que hem demanat i ens retorna els resultats per pantalla. 
 
 **NOTA:** Si tenim el bot configurat, retornarà els resultats al telegram. 
