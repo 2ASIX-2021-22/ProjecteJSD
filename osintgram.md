@@ -1,6 +1,6 @@
 # Osintgram
 
-##
+## Com realitzar una cerca amb la eina OSINT de la nostra aplicació?
 
 Molt fàcil, anirem al menú principal, i escollirem l’opció 5.
 
@@ -8,8 +8,17 @@ Molt fàcil, anirem al menú principal, i escollirem l’opció 5.
 
 ## Com utilitzar l’eina?
 
-### Opcio 1
+### Introducció de les credencials d'Instagram
+
+Quant seleccionem qualsevol de les opcions per primer cop ens demanarà les credencials d'Instagram, simplement les posem i seguim endavant.
+
+### Opcio 1: Veure foto de perfil Instagram
+
+La primera opció ens permetrà obtenir la fotografia de perfil de qualsevol usuari de la xarxa social.
+
 ![fotoperfil](https://user-images.githubusercontent.com/56296299/169569725-b6782a6d-b586-42a3-b384-1cc0eb57c584.png)
+
+I ens arribarà al bot de Telegram.
 
 ![fotoperfil_telegram](https://user-images.githubusercontent.com/56296299/169569734-c1315430-ca31-4f9d-958b-a968688ebd55.png)
 
