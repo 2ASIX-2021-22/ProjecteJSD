@@ -2,7 +2,7 @@
 
 ## Què és Osintgram?
 
-Osintgram és una eina OSINT per recopilar, analitzar i reconiexement a Instagram.
+**[Osintgram](https://github.com/Datalux/Osintgram)** és una eina **[OSINT](https://derechodelared.com/osint/)** per recopilar, analitzar i reconiexement a Instagram.
 
 ## Com realitzar una cerca amb la eina OSINT de la nostra aplicació?
 
