@@ -1,5 +1,8 @@
 # Ennumeració
 
+## Com obtenim informació dels nostres sistemes SAMBA amb la nostra aplicació?
+
+Escollirem l'**opció 8** de la nostra aplicació.
 
 ![enum_menu](https://user-images.githubusercontent.com/92753159/169560173-81091df9-29ab-4b91-bd1b-147710cbd964.png)
 
