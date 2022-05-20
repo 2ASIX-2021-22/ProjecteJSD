@@ -6,6 +6,9 @@ Com s'ha dit al punt anterior, es tracta de la **Raspberry Pi Model B** amb **4 
 
 ![01](https://user-images.githubusercontent.com/92753159/169616328-d58fd67b-c7d1-4885-9bc2-fedab98f04c1.jpg)
 
+![01](https://user-images.githubusercontent.com/92753159/169616931-4aae7b7a-f0bd-446e-80d3-96df7c6cf21d.png)
+
+
 ## Instruccions del fabricant
 A continuació, pots veure dues imatges de les instruccions del fabricant per tal de muntar correctament la Raspberry.
 
