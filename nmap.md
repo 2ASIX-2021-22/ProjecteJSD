@@ -1,5 +1,9 @@
 # NMAP
 
+## Què és NMAP?
+
+NMAP és una eina per a l'exploració de xarxes i l'auditoria de seguretat.
+
 ## Com fer una cerca a NMAP utilitzant la nostra aplicació?
 
 Molt fàcil! Anirem al menú principal, i escollirem l'**opció 7**.
