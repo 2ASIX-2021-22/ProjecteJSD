@@ -6,7 +6,7 @@ Molt fàcil! Anirem al menú principal, i escollirem l'**opció 7**.
 
 ![image](https://user-images.githubusercontent.com/80519737/169173661-5f7fc27d-7913-495b-937d-a8401532ad90.png)
 
-## Com utilitzar l'eina?
+## Com utilitzar l'eina?y
 
 ### Opció 1: Escaneig IP's de la xarxa
 
