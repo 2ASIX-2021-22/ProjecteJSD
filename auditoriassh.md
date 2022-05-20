@@ -2,7 +2,7 @@
 
 ## Què és SSH-Audit?
 
-**[SSH-Audit](https://github.com/jtesta/ssh-audit)** és una eina per a l'auditoria de configuració de client i servidor ssh.
+**[SSH-Audit](https://github.com/jtesta/ssh-audit)** és una eina per a l'auditoria de configuració de **servidor** i **client** ssh.
 
 Per realitzar auditories SSH hem escollit SSH-Audit ja què, és una eina senzilla, intuitiva però, a la vegada molt potent per extreure tots els resultats que ens interesen.
 
