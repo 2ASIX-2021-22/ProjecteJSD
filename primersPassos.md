@@ -25,3 +25,5 @@ Per executar l'script, s'ha d'accedir al terminal, al directori descarregat, i e
 `./scriptexecuciodocker.sh`
 
 Si et dona errors de permisos, es tenen que otorgar **permisos d'execució (+x)**.
+
+Més informació a la [wiki](https://github.com/2ASIX-2021-22/ProjecteJSD/wiki/06.-Creaci%C3%B3-contenidor-amb-Docker).
