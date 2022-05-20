@@ -1,5 +1,9 @@
 # Osintgram
 
+## Què és Osintgram?
+
+Osintgram és una eina OSINT per recopilar, analitzar i reconiexement a Instagram.
+
 ## Com realitzar una cerca amb la eina OSINT de la nostra aplicació?
 
 Anirem al menú principal, i escollirem l’opció 5.
