@@ -12,6 +12,8 @@ Molt fàcil, anirem al menú principal, i escollirem l’opció 5.
 
 Quant seleccionem qualsevol de les opcions per primer cop ens demanarà les credencials d'Instagram, simplement les posem i seguim endavant.
 
+![credencials](https://user-images.githubusercontent.com/92753159/169575206-b9874285-7d1c-4846-9360-257a93b7892f.png)
+
 ### Opcio 1: Veure foto de perfil Instagram
 
 La primera opció ens permetrà obtenir la fotografia de perfil de qualsevol usuari de la xarxa social.
@@ -24,13 +26,21 @@ I ens arribarà al bot de Telegram.
 
 ### Opcio 2
 
+La segona opció ens permetrà obtenir totes les fotografies de qualsevol usuari, i les comprimirà en un arxiu .zip anomenat imatges.zip
+
 ![fotos_pujades](https://user-images.githubusercontent.com/56296299/169569748-4fcb9030-b119-40ff-b18d-6ab7a0c63d03.png)
+
+Aquest arxiu .zip que ens ha generat s'enviarà al bot de Telegram i podrem visualitzar totes les imatges.
 
 ![fotos_pujades_telegram](https://user-images.githubusercontent.com/56296299/169569754-5fcbdbef-b930-4052-af28-405028887c8a.png)
 
 ### Opcio 3
 
+La tercera opció ens permetrà obtenir les adreces que els usuaris han etiquetat a les imatges.
+
 ![adreces_fotos](https://user-images.githubusercontent.com/56296299/169569689-a61ab3ee-b258-435d-aba4-98bc63b194ab.png)
+
+I les enviarà totes en un arxiu .txt al bot de Telegram.
 
 ![adreces_fotos_telegram](https://user-images.githubusercontent.com/56296299/169569700-9830be45-2aec-4f15-9274-765ef41ea273.png)
 
