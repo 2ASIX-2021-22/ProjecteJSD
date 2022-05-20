@@ -9,20 +9,6 @@ The Harvester és una eina per recol·lectar informació pública a la web. Apr�
 
 ![image](https://user-images.githubusercontent.com/80519737/169096715-f2888767-d59e-40b3-9786-7afd5b8aac22.png)
 
-## Instruccions d'instal·lació:
-
-Per començar, caldria crear un CSE de Google i afegir la nostra API Key de google i l'identificador del CSE generat.
-
-En segon lloc, hem d'especificar la nostra API Key de Shodan al fitxer shodansearch.py del projecte. (https://github.com/laramies/theHarvester/issues/747)
-
-També, crearem el fitxer api-keys.yaml (https://github.com/ben000000/theHarvester/blob/master/api-keys.yaml)
-
-Hem d'instal·lar la llibreria requests de Python `pip install requests`
-
-I per descomptat tenir Python instal·lat (**2.7 recomanat**)
-
-Un cop completats els passos anteriors, descarreguem el projecte `{git clone https://github.com/laramies/theHarvester.git}`
-
 ## Com utilitzar l'eina?
 
 Seleccionem l'**opció 2** del menú principal.
