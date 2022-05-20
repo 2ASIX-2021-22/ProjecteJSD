@@ -24,15 +24,15 @@ Busca amb l'eina NMAP, els ports oberts d'un dispositiu.
 
 Busca amb l'eina NMAP, de tots ports oberts que hi han, les versions i serveis que està utilitzant el dispositiu atacat. 
 
-I ho mostra amb format CSV per una lectura més senzilla.
+I ho mostra amb **format CSV** per facilitar la lectura a l'usuari.
 
 ![image](https://user-images.githubusercontent.com/80519737/169174779-7db10b6c-6c80-40eb-8ece-6bd387c5da51.png)
 
 ### Opció 4. Vulnerabilitats CVE
 
-ss
+Mitjançant els scripts **nmap-vulners** i **vulscan** i amb tota la potència de l'eina NMAP busca les vulnerabilitats que podem tenir al dispositiu en qüestió.
 
 ![nmap_vuln1](https://user-images.githubusercontent.com/92753159/169496523-c9f355a1-6054-4c1d-8f2c-ebece9a9a08e.png)
-![nma_vuln2](https://user-images.githubusercontent.com/92753159/169496652-3330d564-9da1-48a4-b9d7-a1866608cbe9.png)
+![nmap_vuln2](https://user-images.githubusercontent.com/92753159/169496652-3330d564-9da1-48a4-b9d7-a1866608cbe9.png)
 
-**NOTA:** Si està el bot configurat, també enviarà els resultats per Telegram.
+**NOTA:** Tots aquests resultats arribaran al bot de Telegram si està configurat.
