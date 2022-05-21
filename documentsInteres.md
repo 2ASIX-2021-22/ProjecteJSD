@@ -2,7 +2,7 @@
 
 ## Quins documents tindreu disponibles en aquesta pàgina?
 
-En aquesta posarem a la disposició dels nostres clients l'**anàlisi de riscos** i el **contracte de serveis** tots dos, són **documents indispensables** per a la realització de l'auditoria.
+En aquesta posarem a la disposició dels nostres clients l'**anàlisi de riscos** i el **contracte de serveis** tots dos, són **documents indispensables** per a la realització de l'auditoria, i a més a més, l'**informe final** per al **usuari/client**.
 
 ### Anàlisi de riscos
 
