@@ -39,5 +39,3 @@ Un cop fet els primers passos, ja ens hauria d'arrancar la app.
 ## [OPCIÓ 7. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
 
 ## [OPCIÓ 8. ENUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
-
-## [Informe Final de l'usuari](https://2asix-2021-22.github.io/ProjecteJSD/InformeFinalUsuari)
