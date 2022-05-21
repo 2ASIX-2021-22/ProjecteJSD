@@ -11,7 +11,7 @@ En aquest manual és per a l'usuari, **NO** explicarem el **codi**. Només mostr
 *NOTA: Aquesta app, solament està implementada per al sistema operatiu Linux.*
 
 ## Com iniciar l'aplicació per primer cop?
-Clic al següent enllaç. [Primers passos](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
+Clic al següent enllaç. [**Primers passos**](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
 
 Un cop fet els primers passos, ja ens hauria d'arrancar la app.
 
