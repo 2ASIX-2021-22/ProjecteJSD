@@ -18,7 +18,7 @@ Un cop fet els primers passos, ja ens hauria d'arrancar la app.
 ![image](https://user-images.githubusercontent.com/80519737/168885531-9ef3d416-e4ee-4c77-8154-bc4cf2532bf6.png)
 
 
-## [Documentació d'interès per al client](https://2asix-2021-22.github.io/ProjecteJSD/documentsInteres)
+## [Documents d'interès per al client](https://2asix-2021-22.github.io/ProjecteJSD/documentsInteres)
 
 ## [Muntatge de la Raspberry Pi (OPCIONAL)](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
 
