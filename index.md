@@ -12,11 +12,13 @@ En aquest manual és per a l'usuari, **NO** explicarem el **codi**. Només mostr
 
 ## Menú principal
 
+L’aplicació té 8 opcions disponibles.
+
+Cada opció té un programa implementat. Els programes són copiats d’altres repositoris i implementats per a què, ens funcioni a la nostra aplicació. Adequats també, a les necessitats demanades a classe i a les que nosaltres hem cregut convenients.
+
 ### [Documents d'interès](https://2asix-2021-22.github.io/ProjecteJSD/documentsInteres)
 
 ### [Muntatge de la Raspberry Pi (OPCIONAL)](https://2asix-2021-22.github.io/ProjecteJSD/muntatgeraspberrypi)
-
-### [Menú Principal](https://2asix-2021-22.github.io/ProjecteJSD/menuPrincipal)
 
 ### [OPCIÓ 1. SHODAN](https://2asix-2021-22.github.io/ProjecteJSD/shodan)
 
