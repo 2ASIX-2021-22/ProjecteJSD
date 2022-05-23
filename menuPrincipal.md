@@ -22,7 +22,7 @@ Cada opció té un programa implementat. Els programes són copiats d'altres rep
 
 ## [OPCIÓ 7. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
 
-## [OPCIÓ 8. ENNUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
+## [OPCIÓ 8. ENUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
 
 
 
