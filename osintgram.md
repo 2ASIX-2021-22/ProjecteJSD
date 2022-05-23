@@ -2,7 +2,7 @@
 
 ## Què és Osintgram?
 
-**[Osintgram](https://github.com/Datalux/Osintgram)** és una eina **[OSINT](https://derechodelared.com/osint/)** per recopilar, analitzar i reconiexement a Instagram.
+**[Osintgram](https://github.com/Datalux/Osintgram)** és una eina **[OSINT](https://derechodelared.com/osint/)** per recopilar, analitzar i reconeixement a Instagram.
 
 ## Com realitzar una cerca amb la eina OSINT de la nostra aplicació?
 
