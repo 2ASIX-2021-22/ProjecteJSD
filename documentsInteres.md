@@ -1,8 +1,8 @@
-# Documents d'interès per al client
+# Documents d'interès
 
 ## Quins documents tindreu disponibles en aquesta pàgina?
 
-En aquesta posarem a la disposició dels nostres clients l'**anàlisi de riscos** i el **contracte de serveis** tots dos, són **documents indispensables** per a la realització de l'auditoria, i a més a més, l'**informe final** per al **usuari/client**.
+En aquesta pàgina posarem a la vostra disposició documentació d'interès com l'**anàlisi de riscos** i el **contracte de serveis** tots dos, són **documents indispensables** per a la realització de l'auditoria, i a més a més, l'**informe final** per al **usuari/client**.
 
 ### Anàlisi de riscos
 
