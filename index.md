@@ -10,13 +10,7 @@ En aquest manual és per a l'usuari, **NO** explicarem el **codi**. Només mostr
 
 *NOTA: Aquesta app, solament està implementada per al sistema operatiu Linux.*
 
-## Com iniciar l'aplicació per primer cop?
-Clic al següent enllaç. [**Primers passos**](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
-
-Un cop fet els primers passos, ja ens hauria d'arrancar la app.
-
-![image](https://user-images.githubusercontent.com/80519737/168885531-9ef3d416-e4ee-4c77-8154-bc4cf2532bf6.png)
-
+## Menú principal
 
 ## [Documents d'interès](https://2asix-2021-22.github.io/ProjecteJSD/documentsInteres)
 
@@ -39,3 +33,11 @@ Un cop fet els primers passos, ja ens hauria d'arrancar la app.
 ## [OPCIÓ 7. NMAP](https://2asix-2021-22.github.io/ProjecteJSD/nmap)
 
 ## [OPCIÓ 8. ENUMERACIÓ](https://2asix-2021-22.github.io/ProjecteJSD/ennumeracio)
+
+
+## Com iniciar l'aplicació per primer cop?
+Clic al següent enllaç. [**Primers passos**](https://2asix-2021-22.github.io/ProjecteJSD/primersPassos)
+
+Un cop fet els primers passos, ja ens hauria d'arrancar la app.
+
+![image](https://user-images.githubusercontent.com/80519737/168885531-9ef3d416-e4ee-4c77-8154-bc4cf2532bf6.png)
