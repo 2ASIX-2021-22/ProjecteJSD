@@ -20,6 +20,8 @@ Modificarem el contingut de les variables **idBot** i **idGrupo** tal i com s'ex
 
 Tenim un script al projecte anomenat: **scriptexecuciodocker.sh**
 
+Al següent enllaç tenim un [**video explicatiu**](https://drive.google.com/file/d/1VYmUDEKKQ97-KMYAPhuVHoyE02foU6eG/view?usp=sharing) de com inicialitzar el contenidor Docker.
+
 Per executar l'script, s'ha d'accedir al terminal, al directori descarregat, i executar la següent ordre:
 
 `./scriptexecuciodocker.sh`
